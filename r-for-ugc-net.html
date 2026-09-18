@@ -6,91 +6,97 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Source+Sans+3:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root{
-    --bg:#f7f4ec;
+    --bg:#eef3fb;
     --surface:#ffffff;
-    --surface-2:#f0ead9;
-    --ink:#20242c;
-    --ink-soft:#535d6c;
-    --ink-faint:#7c8494;
-    --border:#e2d9c2;
-    --border-soft:#ece5d3;
-    --accent:#2f5d8a;
-    --accent-ink:#1d3a57;
-    --accent-soft:#e3edf5;
-    --good:#1f7a5c;
-    --good-soft:#e2f2ec;
-    --warn:#9c6a1f;
-    --warn-soft:#f6ecd9;
-    --bad:#ad443e;
-    --bad-soft:#faeae8;
-    --code-bg:#1a222c;
-    --code-ink:#dbe3ec;
-    --code-faint:#7d8ba0;
-    --code-accent:#7fd1ae;
-    --code-string:#e8b877;
+    --surface-2:#f1f6fd;
+    --ink:#0f1b2d;
+    --ink-soft:#4b5b74;
+    --ink-faint:#7c8ba3;
+    --border:#dbe6f5;
+    --border-soft:#e8f0fb;
+    --accent:#2563eb;
+    --accent-2:#0ea5e9;
+    --accent-ink:#1d4ed8;
+    --accent-soft:#e7f0fe;
+    --good:#0f9d63;
+    --good-soft:#e3f7ee;
+    --warn:#b4650d;
+    --warn-soft:#fdf0dc;
+    --bad:#dc2b2b;
+    --bad-soft:#fdeaea;
+    --code-bg:#0b1526;
+    --code-ink:#dfe9f9;
+    --code-faint:#7891b5;
+    --code-accent:#5eead4;
+    --code-string:#ffc27a;
     --radius:10px;
-    --shadow:0 1px 2px rgba(30,25,10,.06), 0 8px 24px -12px rgba(30,25,10,.18);
+    --shadow:0 1px 2px rgba(15,40,90,.05), 0 12px 28px -14px rgba(15,40,90,.22);
     color-scheme: light;
   }
   @media (prefers-color-scheme: dark){
     :root:not([data-theme="light"]){
-      --bg:#12151b;
-      --surface:#181d25;
-      --surface-2:#1e242d;
-      --ink:#e9e7df;
-      --ink-soft:#a8b0bd;
-      --ink-faint:#7a8291;
-      --border:#2b3139;
-      --border-soft:#232a32;
-      --accent:#78aee0;
-      --accent-ink:#bfe0fb;
-      --accent-soft:#1c2e40;
-      --good:#7ad2a8;
-      --good-soft:#173428;
-      --warn:#e3ac5f;
-      --warn-soft:#3a2c15;
-      --bad:#e8837c;
-      --bad-soft:#3a1f1c;
-      --code-bg:#0e1218;
-      --code-ink:#dbe3ec;
-      --code-faint:#7d8ba0;
-      --code-accent:#8be3bb;
-      --code-string:#eec48c;
-      --shadow:0 1px 2px rgba(0,0,0,.3), 0 8px 24px -12px rgba(0,0,0,.5);
+      --bg:#0b1220;
+      --surface:#111a2c;
+      --surface-2:#16213a;
+      --ink:#e7edf9;
+      --ink-soft:#9fb0c9;
+      --ink-faint:#71839e;
+      --border:#233252;
+      --border-soft:#1b2740;
+      --accent:#5b9bf6;
+      --accent-2:#38bdf8;
+      --accent-ink:#8fc0fb;
+      --accent-soft:#152744;
+      --good:#4ade9a;
+      --good-soft:#0e2a20;
+      --warn:#f0ad5f;
+      --warn-soft:#332209;
+      --bad:#f38b8b;
+      --bad-soft:#341313;
+      --code-bg:#060c18;
+      --code-ink:#dfe9f9;
+      --code-faint:#7891b5;
+      --code-accent:#6ee7d3;
+      --code-string:#ffcb8c;
+      --shadow:0 1px 2px rgba(0,0,0,.35), 0 12px 28px -14px rgba(0,0,0,.55);
       color-scheme: dark;
     }
   }
   :root[data-theme="dark"]{
-    --bg:#12151b;
-    --surface:#181d25;
-    --surface-2:#1e242d;
-    --ink:#e9e7df;
-    --ink-soft:#a8b0bd;
-    --ink-faint:#7a8291;
-    --border:#2b3139;
-    --border-soft:#232a32;
-    --accent:#78aee0;
-    --accent-ink:#bfe0fb;
-    --accent-soft:#1c2e40;
-    --good:#7ad2a8;
-    --good-soft:#173428;
-    --warn:#e3ac5f;
-    --warn-soft:#3a2c15;
-    --bad:#e8837c;
-    --bad-soft:#3a1f1c;
-    --code-bg:#0e1218;
-    --code-ink:#dbe3ec;
-    --code-faint:#7d8ba0;
-    --code-accent:#8be3bb;
-    --code-string:#eec48c;
-    --shadow:0 1px 2px rgba(0,0,0,.3), 0 8px 24px -12px rgba(0,0,0,.5);
+    --bg:#0b1220;
+    --surface:#111a2c;
+    --surface-2:#16213a;
+    --ink:#e7edf9;
+    --ink-soft:#9fb0c9;
+    --ink-faint:#71839e;
+    --border:#233252;
+    --border-soft:#1b2740;
+    --accent:#5b9bf6;
+    --accent-2:#38bdf8;
+    --accent-ink:#8fc0fb;
+    --accent-soft:#152744;
+    --good:#4ade9a;
+    --good-soft:#0e2a20;
+    --warn:#f0ad5f;
+    --warn-soft:#332209;
+    --bad:#f38b8b;
+    --bad-soft:#341313;
+    --code-bg:#060c18;
+    --code-ink:#dfe9f9;
+    --code-faint:#7891b5;
+    --code-accent:#6ee7d3;
+    --code-string:#ffcb8c;
+    --shadow:0 1px 2px rgba(0,0,0,.35), 0 12px 28px -14px rgba(0,0,0,.55);
     color-scheme: dark;
   }
 
   *{box-sizing:border-box;}
   body{
     margin:0;
-    background:var(--bg);
+    background:
+      radial-gradient(1400px 500px at 15% -8%, var(--surface-2), transparent 55%),
+      var(--bg);
+    background-attachment:fixed;
     color:var(--ink);
     font-family:"Source Sans 3", ui-sans-serif, system-ui, sans-serif;
     font-size:16.5px;
@@ -137,11 +143,12 @@
   }
   .brand-mark{
     width:34px;height:34px;border-radius:9px;
-    background:var(--accent);
-    color:var(--surface);
+    background:linear-gradient(135deg, var(--accent), var(--accent-2));
+    color:#fff;
     display:flex;align-items:center;justify-content:center;
     font-family:"IBM Plex Mono";font-weight:600;font-size:15px;
     flex:none;
+    box-shadow:0 4px 12px -4px rgba(37,99,235,.5);
   }
   .brand-text{font-size:13px;color:var(--ink-soft); line-height:1.3;}
   .brand-text b{color:var(--ink); font-size:14.5px; display:block; font-family:"Fraunces"; font-weight:600;}
@@ -176,12 +183,17 @@
   main{min-width:0;}
 
   header.hero{
-    background:var(--surface);
+    background:
+      radial-gradient(1100px 260px at 100% -10%, var(--accent-soft), transparent 60%),
+      var(--surface);
     border:1px solid var(--border);
+    border-top:3px solid var(--accent);
     border-radius:16px;
     padding:34px clamp(20px,4vw,44px);
     box-shadow:var(--shadow);
     margin-bottom:28px;
+    position:relative;
+    overflow:hidden;
   }
   .eyebrow{
     font-size:12px; letter-spacing:.09em; text-transform:uppercase;
@@ -465,10 +477,10 @@
   </aside>
 
   <main>
-    <header class="hero" id="overview">
-      <div class="eyebrow">UGC NET &middot; Competitive Exams &middot; Self-Study &middot; 'R' Software &amp; Beyond</div>
-      <h1>The complete R learning portal — syllabus, full course &amp; quiz</h1>
-      <p class="lead">The UGC NET "R software" syllabus line explained in full — the calculator, matrices, missing data, loops, strings, factors, data frames, plotting, and writing your own functions — plus a 13-module full R course running from environments and regex through statistics to machine learning, backed by a 116-question bank you can quiz yourself on, 20 random questions at a time.</p>
+    <header class="hero" id="overview" style="text-align:center">
+      <div class="eyebrow" style="justify-content:center">UGC NET &middot; Competitive Exams &middot; Self-Study &middot; 'R' Software &amp; Beyond</div>
+      <h1 style="max-width:none">The complete R learning portal<br>for<br>UGC NET in Statistics</h1>
+      <p class="lead" style="margin-inline:auto">The UGC NET "R software" syllabus line explained in full — the calculator, matrices, missing data, loops, strings, factors, data frames, plotting, and writing your own functions — plus a 13-module full R course running from environments and regex through statistics to machine learning, backed by a 130+ question bank you can quiz yourself on, 20 random questions at a time.</p>
       <p class="byline">By <b>Mahesh Divakaran</b> &middot; Clinical Data Scientist &middot; Google Certified R Programmer &amp; R Subject-Matter Expert</p>
     </header>
 
@@ -482,7 +494,18 @@
 
       <p>Two more things are worth knowing before you dive in. First, R is <b>interpreted</b> and <b>vectorised</b>: there's no separate compile step, and operations you might loop over in other languages usually apply to a whole vector at once — this single idea (covered in Unit&nbsp;2) explains a surprising fraction of "surprising" R output. Second, R's power comes overwhelmingly from its <b>package ecosystem</b> — tens of thousands of add-on libraries hosted on CRAN, Bioconductor and elsewhere — so a working knowledge of where packages come from and how they're vetted (covered later in this section) is itself fair examination territory.</p>
 
-      <p class="dim">This guide is organised in three layers: the <b>ecosystem</b> (history, IDEs, versions, repositories — background context), the <b>ten syllabus units</b> (the actual R language, syntax by syntax), and <b>practice</b> (verified previous-year questions plus 20 fresh ones). Use the sidebar to jump straight to whichever layer you need.</p>
+      <p class="dim">This guide is organised in three layers: the <b>ecosystem</b> (history, IDEs, versions, repositories — background context), the <b>ten syllabus units</b> (the actual R language, syntax by syntax), and <b>practice</b> (verified previous-year questions plus a 130+ question bank). Use the sidebar to jump straight to whichever layer you need.</p>
+
+      <h3>A first taste: why "vectorised" matters</h3>
+      <p>Here is the single idea that separates R output from what a C/Java/Python beginner expects. In most languages, adding 1 to every element of a list needs an explicit loop. In R, <code class="inline">+</code> is itself a function that already knows how to walk a vector:</p>
+      <pre class="console"><span class="p">&gt;</span> marks <- c(62, 71, 55, 90)
+<span class="p">&gt;</span> marks + 5                 <span class="c"># no loop — + applies to every element at once</span>
+<span class="o">[1] 67 76 60 95</span>
+<span class="p">&gt;</span> marks > 60                <span class="c"># comparisons vectorise too</span>
+<span class="o">[1]  TRUE  TRUE FALSE  TRUE</span>
+<span class="p">&gt;</span> sum(marks > 60)           <span class="c"># TRUE/FALSE count as 1/0, so sum() counts them</span>
+<span class="o">[1] 3</span></pre>
+      <p>That last line — <code class="inline">sum(condition)</code> to count how many elements satisfy something — is one of the most common idioms in R code, and in NET-style "what does this print?" questions. Keep it in mind: it resurfaces constantly from Unit&nbsp;2 onward.</p>
     </section>
 
     <!-- ============ HISTORY ============ -->
@@ -511,6 +534,21 @@
       <div class="callout fact">
         <span class="tag">Exam-relevant fact</span>
         Three names come up repeatedly in NET-style "who / when" questions on R: <b>Ross Ihaka &amp; Robert Gentleman</b> (created R, 1993, University of Auckland), <b>John Chambers</b> (created S, R's ancestor, at Bell Labs), and <b>Kurt Hornik &amp; Friedrich Leisch</b> (founded CRAN, 1997). R is licensed under the <b>GNU GPL</b> and governed today by the <b>R Foundation</b> together with the volunteer <b>R Core Team</b>.
+      </div>
+
+      <h3>Where the name actually comes from</h3>
+      <p>Two things earned R its single-letter name at once: it followed the letter "S" alphabetically (signalling "the next S"), and both creators' first names — <b>R</b>oss and <b>R</b>obert — begin with R. John Chambers, S's original designer, later joined the R Core Team himself, which is why S-derived code so often runs on R with no changes: R was built as a compatible reimplementation from the outset, not an unrelated language that happened to look similar.</p>
+      <div class="twrap">
+      <table class="ref">
+        <caption>Quick "who did what" reference — a recurring NET question shape</caption>
+        <thead><tr><th>Person / people</th><th>Contribution</th></tr></thead>
+        <tbody>
+          <tr><td>John Chambers</td><td>Designed <b>S</b> at Bell Labs (R's direct ancestor)</td></tr>
+          <tr><td>Ross Ihaka &amp; Robert Gentleman</td><td>Created <b>R</b> (1993) at the University of Auckland</td></tr>
+          <tr><td>Kurt Hornik &amp; Friedrich Leisch</td><td>Founded <b>CRAN</b> (1997)</td></tr>
+          <tr><td>Martin Mächler</td><td>Urged the 1995 public release of R's source under the GPL</td></tr>
+        </tbody>
+      </table>
       </div>
     </section>
 
@@ -554,6 +592,20 @@
           <p class="dim" style="margin-top:6px"><b>Posit Cloud</b> hosts full RStudio sessions in a browser with no local install; <b>Google Colab</b> and <b>Kaggle Notebooks</b> can both run an R kernel for quick, shareable, zero-setup analysis.</p>
         </div>
       </div>
+
+      <h3>Running R without any IDE at all</h3>
+      <p>It's worth actually seeing the bare interpreter once, since NET questions describe R's behaviour at exactly this level — no IDE features involved. Two ways to invoke it from a terminal:</p>
+      <pre class="console"><span class="c"># interactive session — drops you at the "&gt;" prompt shown throughout this guide</span>
+$ R
+
+<span class="c"># non-interactive — runs a script file top to bottom and exits</span>
+$ Rscript my_analysis.R</pre>
+      <p>Every code block in this guide is written exactly as it would appear at that <code class="inline">&gt;</code> prompt — which is also exactly the format NET "what is the output of the following R code" questions use. Getting comfortable reading raw console transcripts (no syntax highlighting, no autocomplete) is worth doing at least once before the exam.</p>
+
+      <div class="callout fact">
+        <span class="tag">Exam-relevant fact</span>
+        A "which IDE" question usually hinges on one distinguishing feature: RStudio → four-pane layout, first released 2011, company renamed <b>Posit</b> in Nov 2022; Positron → VS&nbsp;Code-based, equal R/Python support, GA August 2025; Jupyter → needs the <code class="inline">IRkernel</code> package for R; R Commander/Jamovi/JASP → menu-driven front ends that still generate R code underneath.
+      </div>
     </section>
 
     <!-- ============ VERSIONS ============ -->
@@ -586,6 +638,23 @@
         <span class="tag">Exam trap</span>
         The <code class="inline">stringsAsFactors</code> default flip in <b>R 4.0.0</b> (2020) is the single most-tested version-history fact: before 4.0.0, <code class="inline">data.frame()</code> converted character columns to factors <b>by default</b>; from 4.0.0 onward the default is <code class="inline">FALSE</code>, so character columns stay character unless you ask otherwise. Equally testable: the <b>native pipe</b> <code class="inline">|&gt;</code> arrived in <b>4.1.0</b> (2021), not with the much older <code class="inline">magrittr</code> pipe <code class="inline">%&gt;%</code>, which is a tidyverse package operator, not a base-R one.
       </div>
+
+      <h3>Three version-specific features, side by side</h3>
+      <pre class="console"><span class="c"># 4.1.0 — native pipe + shorthand lambda</span>
+<span class="p">&gt;</span> c(4, 9, 16) |> sqrt() |> sum()
+<span class="o">[1] 9</span>
+<span class="p">&gt;</span> sapply(1:3, \(x) x^2)          <span class="c"># \(x) is shorthand for function(x)</span>
+<span class="o">[1] 1 4 9</span>
+
+<span class="c"># 4.2.0 — raw strings need no backslash-escaping</span>
+<span class="p">&gt;</span> cat(r"(C:\Users\name\Documents)")
+<span class="o">C:\Users\name\Documents</span>
+
+<span class="c"># 4.0.0 — stringsAsFactors default flip</span>
+<span class="p">&gt;</span> df <- data.frame(city = c("Pune", "Kochi"))
+<span class="p">&gt;</span> class(df$city)                <span class="c"># "character" from 4.0.0 on; was "factor" before</span>
+<span class="o">[1] "character"</span></pre>
+      <p>A quick way to check which version a script assumes: if you see <code class="inline">|&gt;</code>, it targets R&nbsp;&ge;&nbsp;4.1; if you see <code class="inline">%&gt;%</code>, it's using the <b>magrittr</b>/tidyverse pipe and will run on any R version as long as that package is loaded.</p>
     </section>
 
     <!-- ============ REPOSITORIES ============ -->
@@ -617,6 +686,15 @@
         </tbody>
       </table>
       </div>
+
+      <h3>Checking what's actually installed</h3>
+      <pre class="console"><span class="p">&gt;</span> installed.packages()[, "Version"]  <span class="c"># every installed package + its version</span>
+<span class="p">&gt;</span> packageVersion("ggplot2")
+<span class="o">[1] '4.0.0'</span>
+<span class="p">&gt;</span> .libPaths()                         <span class="c"># where R is looking for packages</span>
+<span class="p">&gt;</span> sessionInfo()                       <span class="c"># R version + every attached package's version — the</span>
+                                        <span class="c"># standard thing to paste when reporting a bug</span></pre>
+      <p>CRAN also groups related packages into curated <b>Task Views</b> (e.g. "TimeSeries", "MachineLearning", "ClinicalTrials") — a maintained, annotated list of the packages considered best-in-class for that domain, useful when you don't yet know which of 22,900+ packages to reach for.</p>
 
       <div class="callout fact">
         <span class="tag">Exam-relevant fact</span>
@@ -697,6 +775,36 @@
             <li>7</li>
           </ol>
           <div class="solution"><b>Why:</b> <code class="inline">%%</code>/<code class="inline">%/%</code> bind <i>tighter</i> than <code class="inline">*</code>/<code class="inline">/</code>, which in turn bind tighter than <code class="inline">+</code>. So R first reduces <code class="inline">5 %/% 2</code> → <code class="inline">2</code> and <code class="inline">5 %% 2</code> → <code class="inline">1</code>, leaving <code class="inline">2 + 1 * 2</code>; then <code class="inline">*</code> before <code class="inline">+</code> gives <code class="inline">2 + 2 = 4</code>.</div>
+        </div>
+      </details>
+
+      <h3>Numeric storage modes: double, integer &amp; complex</h3>
+      <p>A plain literal like <code class="inline">5</code> is stored as a <b>double</b> (double-precision floating point) by default — even though it looks like an integer. Suffix a literal with <code class="inline">L</code> to force true integer storage, which matters for <code class="inline">typeof()</code>/<code class="inline">is.integer()</code> questions and for exact modulus behaviour.</p>
+      <div class="callout example">
+        <span class="tag">Worked example</span>
+        <pre class="console"><span class="p">&gt;</span> typeof(5)          <span class="c"># plain numeric literal</span>
+<span class="o">[1] "double"</span>
+<span class="p">&gt;</span> typeof(5L)         <span class="c"># L suffix forces integer</span>
+<span class="o">[1] "integer"</span>
+<span class="p">&gt;</span> typeof(5L + 2L)    <span class="c"># integer + integer stays integer</span>
+<span class="o">[1] "integer"</span>
+<span class="p">&gt;</span> typeof(5L / 2L)    <span class="c"># / always promotes to double, even for integers</span>
+<span class="o">[1] "double"</span>
+<span class="p">&gt;</span> typeof(5L %/% 2L)  <span class="c"># %/% keeps integer type if both inputs are integer</span>
+<span class="o">[1] "integer"</span></pre>
+        The rule to remember: <code class="inline">/</code> <b>always</b> returns a double, no matter what you feed it, while <code class="inline">%/%</code> and arithmetic <code class="inline">+ - *</code> preserve integer type when both operands are already integers.
+      </div>
+
+      <details class="qcard">
+        <summary>Practice — What is <code class="inline">typeof(5L / 2L)</code>?</summary>
+        <div class="qbody">
+          <ol class="opts">
+            <li>"integer"</li>
+            <li class="correct">"double"</li>
+            <li>"numeric"</li>
+            <li>"float"</li>
+          </ol>
+          <div class="solution"><b>Why:</b> <code class="inline">/</code> (true division) always promotes its result to double in R, regardless of whether the inputs were integers — this is different from <code class="inline">%/%</code>, which preserves integer type. Note <code class="inline">typeof()</code> reports <code class="inline">"double"</code>, never the string <code class="inline">"numeric"</code> or <code class="inline">"float"</code> (those aren't R storage-mode names).</div>
         </div>
       </details>
     </section>
@@ -814,6 +922,37 @@
           <div class="solution"><b>Why:</b> matrix multiplication is <b>not commutative</b> in general — this is a classical-algebra fact R inherits directly, and NET loves testing it disguised as an R question.</div>
         </div>
       </details>
+
+      <h3>Row and column summaries with <code class="inline">apply()</code></h3>
+      <p><code class="inline">apply(X, MARGIN, FUN)</code> is the workhorse for matrix summaries: <code class="inline">MARGIN = 1</code> walks row by row, <code class="inline">MARGIN = 2</code> walks column by column. Dedicated shortcuts <code class="inline">rowSums()</code>, <code class="inline">colSums()</code>, <code class="inline">rowMeans()</code>, <code class="inline">colMeans()</code> exist too and run faster on large matrices.</p>
+      <div class="callout example">
+        <span class="tag">Worked example</span>
+        <pre class="console"><span class="p">&gt;</span> M <- matrix(1:6, nrow = 2)
+<span class="p">&gt;</span> M
+<span class="o">     [,1] [,2] [,3]
+[1,]    1    3    5
+[2,]    2    4    6</span>
+<span class="p">&gt;</span> apply(M, 1, sum)     <span class="c"># MARGIN=1 -&gt; one result per ROW</span>
+<span class="o">[1]  9 12</span>
+<span class="p">&gt;</span> apply(M, 2, sum)     <span class="c"># MARGIN=2 -&gt; one result per COLUMN</span>
+<span class="o">[1] 3 7 11</span>
+<span class="p">&gt;</span> apply(M, 2, function(col) max(col) - min(col))   <span class="c"># custom FUN, one per column</span>
+<span class="o">[1] 1 1 1</span></pre>
+        <code class="inline">apply()</code> always returns results in the order of the margin you chose — two values for <code class="inline">MARGIN=1</code> here (one per row), three for <code class="inline">MARGIN=2</code> (one per column) — which is the detail NET questions probe most often.
+      </div>
+
+      <details class="qcard">
+        <summary>Practice — <code class="inline">M &lt;- matrix(1:6, nrow = 2)</code>. What does <code class="inline">apply(M, 1, sum)</code> return?</summary>
+        <div class="qbody">
+          <ol class="opts">
+            <li>c(3, 7, 11)</li>
+            <li class="correct">c(9, 12)</li>
+            <li>21</li>
+            <li>c(1, 2, 3, 4, 5, 6)</li>
+          </ol>
+          <div class="solution"><b>Why:</b> <code class="inline">MARGIN = 1</code> sums across each row: row 1 = 1+3+5 = 9, row 2 = 2+4+6 = 12 — two results, since the matrix has two rows.</div>
+        </div>
+      </details>
     </section>
 
     <!-- ============ UNIT 3 ============ -->
@@ -873,6 +1012,42 @@
           <div class="solution"><b>Why:</b> the <code class="inline">L</code> suffix forces the integer storage type; a bare numeral like <code class="inline">1</code> is stored as a double-precision "numeric" by default.</div>
         </div>
       </details>
+
+      <h3>The apply family: R's built-in loop replacements</h3>
+      <p>These four functions apply another function to each element of a vector/list, and are among the most heavily tested "built-in functions" on NET papers precisely because each returns a <b>different shape</b>.</p>
+      <div class="twrap">
+      <table class="ref">
+        <thead><tr><th>Function</th><th>Input</th><th>Returns</th></tr></thead>
+        <tbody>
+          <tr><td><code>lapply(X, FUN)</code></td><td>vector/list</td><td>always a <b>list</b>, same length as X</td></tr>
+          <tr><td><code>sapply(X, FUN)</code></td><td>vector/list</td><td>"simplifies": a vector/matrix when possible, else falls back to a list</td></tr>
+          <tr><td><code>vapply(X, FUN, FUN.VALUE)</code></td><td>vector/list</td><td>a vector/matrix — like sapply, but with an enforced, predeclared output type (safer in scripts)</td></tr>
+          <tr><td><code>mapply(FUN, ...)</code></td><td>multiple vectors, in parallel</td><td>a vector/matrix — like sapply but for several input vectors walked together</td></tr>
+        </tbody>
+      </table>
+      </div>
+      <div class="callout example">
+        <span class="tag">Worked example</span>
+        <pre class="console"><span class="p">&gt;</span> nums <- list(1:3, 4:6, 7:9)
+<span class="p">&gt;</span> lapply(nums, sum)          <span class="c"># always a list back</span>
+<span class="o">[[1]]
+[1] 6
+
+[[2]]
+[1] 15
+
+[[3]]
+[1] 24</span>
+<span class="p">&gt;</span> sapply(nums, sum)          <span class="c"># simplified to a plain vector</span>
+<span class="o">[1]  6 15 24</span>
+<span class="p">&gt;</span> mapply(function(a, b) a + b, 1:3, 10:12)   <span class="c"># two vectors, walked in parallel</span>
+<span class="o">[1] 11 13 15</span></pre>
+      </div>
+
+      <div class="callout trap">
+        <span class="tag">Exam trap</span>
+        <code class="inline">lapply()</code> <b>never</b> simplifies its output — it is always a list, even if every result is a single number. <code class="inline">sapply()</code> is the one that tries to simplify to a vector/matrix, which is exactly why production code (inside packages, functions) usually prefers the more predictable <code class="inline">vapply()</code> instead.
+      </div>
     </section>
 
     <!-- ============ UNIT 4 ============ -->
@@ -932,6 +1107,37 @@ attr(,"class")
         <span class="tag">Exam trap</span>
         Since R 4.3.0, feeding a condition of length &gt; 1 to <code class="inline">&amp;&amp;</code>/<code class="inline">||</code> or to <code class="inline">if()</code> is a hard <b>error</b> ("'length = n' in coercion to 'logical(1)'"), where older R merely warned and silently used the first element. NET questions written against newer R now expect "Error", not a silent number, for code like <code class="inline">if (c(TRUE, FALSE)) 1 else 2</code>.
       </div>
+
+      <h3>Why <code class="inline">NA == NA</code> is not <code class="inline">TRUE</code></h3>
+      <p>Comparing anything to <code class="inline">NA</code> — including comparing <code class="inline">NA</code> to itself — returns <code class="inline">NA</code>, not <code class="inline">TRUE</code> or <code class="inline">FALSE</code>: R treats "unknown" compared to "unknown" as itself unknown. This trips up more learners than any other single rule in this unit.</p>
+      <div class="callout example">
+        <span class="tag">Worked example</span>
+        <pre class="console"><span class="p">&gt;</span> NA == NA
+<span class="o">[1] NA</span>
+<span class="p">&gt;</span> x <- c(3, NA, 7)
+<span class="p">&gt;</span> x == 7                 <span class="c"># the NA position stays NA, not FALSE</span>
+<span class="o">[1] FALSE    NA  TRUE</span>
+<span class="p">&gt;</span> x[x == 7]               <span class="c"># NA in the index keeps an NA row too!</span>
+<span class="o">[1] NA  7</span>
+<span class="p">&gt;</span> which(x == 7)           <span class="c"># which() silently drops NA positions -- the safe way to index</span>
+<span class="o">[1] 3</span>
+<span class="p">&gt;</span> is.na(x)                <span class="c"># the correct way to test for missingness itself</span>
+<span class="o">[1] FALSE  TRUE FALSE</span></pre>
+        <code class="inline">x[x == 7]</code> and <code class="inline">x[which(x == 7)]</code> look interchangeable but are <b>not</b>: the first keeps a phantom <code class="inline">NA</code> entry for every <code class="inline">NA</code> in the condition, while <code class="inline">which()</code> strips those out first.
+      </div>
+
+      <details class="qcard">
+        <summary>Practice — <code class="inline">x &lt;- c(1, NA, 3)</code>. How many elements does <code class="inline">x[x &gt; 1]</code> have?</summary>
+        <div class="qbody">
+          <ol class="opts">
+            <li>1</li>
+            <li class="correct">2</li>
+            <li>3</li>
+            <li>0</li>
+          </ol>
+          <div class="solution"><b>Why:</b> <code class="inline">x &gt; 1</code> evaluates to <code class="inline">c(FALSE, NA, TRUE)</code>. Indexing with a logical vector keeps a slot (as <code class="inline">NA</code>) for every <code class="inline">NA</code> in the condition, so the result is <code class="inline">c(NA, 3)</code> — length 2, not 1.</div>
+        </div>
+      </details>
     </section>
 
     <!-- ============ UNIT 5 ============ -->
@@ -1033,6 +1239,34 @@ attr(,"class")
             <li>0</li>
           </ol>
           <div class="solution"><b>Why:</b> <code class="inline">next</code> only skips the <i>rest of that one iteration</i> (i = 3); it does not stop the loop. "hi" prints for i = 1, 2, 4 — three times.</div>
+        </div>
+      </details>
+
+      <h3><code class="inline">switch()</code> fall-through: the empty-value trick</h3>
+      <p>Giving a <code class="inline">switch()</code> branch an empty value (nothing after the <code class="inline">=</code>) makes it "fall through" to the next branch below it — a deliberate, testable feature, not a bug.</p>
+      <div class="callout example">
+        <span class="tag">Worked example</span>
+        <pre class="console"><span class="p">&gt;</span> day_type <- function(d) switch(d,
++   "Sat" = ,                 <span class="c"># empty -&gt; falls through to the next branch</span>
++   "Sun" = "Weekend",
++   "Weekday")
+<span class="p">&gt;</span> day_type("Sat")
+<span class="o">[1] "Weekend"</span>
+<span class="p">&gt;</span> day_type("Wed")
+<span class="o">[1] "Weekday"</span></pre>
+        <code class="inline">"Sat" = ,</code> has nothing on the right of <code class="inline">=</code>, so matching <code class="inline">"Sat"</code> drops straight through to the <code class="inline">"Sun"</code> branch's value, <code class="inline">"Weekend"</code>. Any unmatched input (e.g. <code class="inline">"Wed"</code>) reaches the final unnamed argument, the default.
+      </div>
+
+      <details class="qcard">
+        <summary>Practice — With <code class="inline">switch("x", a = 1, b = , c = 3)</code> (no default), what is returned?</summary>
+        <div class="qbody">
+          <ol class="opts">
+            <li>1</li>
+            <li>3</li>
+            <li>NA</li>
+            <li class="correct">NULL, invisibly</li>
+          </ol>
+          <div class="solution"><b>Why:</b> when the value being switched on matches none of the named branches and there is <b>no</b> unnamed default branch, <code class="inline">switch()</code> returns <code class="inline">NULL</code> invisibly (nothing prints at the console, but the value is genuinely <code class="inline">NULL</code> if captured).</div>
         </div>
       </details>
     </section>
@@ -1138,6 +1372,23 @@ attr(,"class")
           <div class="solution"><b>Why:</b> <code class="inline">[aeiou]</code> is a regex character class matching any vowel; <code class="inline">gsub()</code> removes <b>every</b> match (unlike <code class="inline">sub()</code>, which stops after the first). Spelling out "statistics" letter by letter — s,t,a,t,i,s,t,i,c,s — the vowels are the 3rd and 5th and 8th letters (a, i, i); removing them leaves s,t,t,s,t,c,s = <code class="inline">"sttstcs"</code>.</div>
         </div>
       </details>
+
+      <h3>Finding matches: <code class="inline">grepl()</code>, <code class="inline">grep()</code> &amp; <code class="inline">sprintf()</code> in practice</h3>
+      <p><code class="inline">sub()</code>/<code class="inline">gsub()</code> replace; <code class="inline">grepl()</code>/<code class="inline">grep()</code> only test or locate, without changing anything — a distinction the syllabus tests as often as the replace functions themselves.</p>
+      <div class="callout example">
+        <span class="tag">Worked example</span>
+        <pre class="console"><span class="p">&gt;</span> ids <- c("R101", "S204", "R305", "T110")
+<span class="p">&gt;</span> grepl("^R", ids)          <span class="c"># TRUE/FALSE per element -- starts with "R"?</span>
+<span class="o">[1]  TRUE FALSE  TRUE FALSE</span>
+<span class="p">&gt;</span> grep("^R", ids)           <span class="c"># positions of matches, not TRUE/FALSE</span>
+<span class="o">[1] 1 3</span>
+<span class="p">&gt;</span> grep("^R", ids, value = TRUE)  <span class="c"># the matching strings themselves</span>
+<span class="o">[1] "R101" "R305"</span>
+<span class="p">&gt;</span> sprintf("Roll %s scored %d%%", ids, c(88, 91, 76, 65))
+<span class="o">[1] "Roll R101 scored 88%" "Roll S204 scored 91%"
+[3] "Roll R305 scored 76%" "Roll T110 scored 65%"</span></pre>
+        <code class="inline">sprintf()</code> vectorises over all its arguments simultaneously, recycling shorter ones — useful for building one formatted string per row of a dataset without a loop.
+      </div>
     </section>
 
     <!-- ============ UNIT 7 ============ -->
@@ -1222,6 +1473,27 @@ A B C
           <div class="solution"><b>Why:</b> single-bracket indexing on a list always returns a (shorter) list — the container type is preserved. Only <code class="inline">lst[[1]]</code> would return <code class="inline">"integer"</code>.</div>
         </div>
       </details>
+
+      <h3>Unused levels: <code class="inline">droplevels()</code> and <code class="inline">relevel()</code></h3>
+      <p>Subsetting a factor doesn't remove levels that no longer appear in the data — they stick around as "phantom" empty categories until you explicitly drop them, which matters for <code class="inline">table()</code> output and for model fitting.</p>
+      <div class="callout example">
+        <span class="tag">Worked example</span>
+        <pre class="console"><span class="p">&gt;</span> city <- factor(c("Pune","Kochi","Pune","Delhi"))
+<span class="p">&gt;</span> sub <- city[city != "Delhi"]
+<span class="p">&gt;</span> levels(sub)                 <span class="c"># "Delhi" is gone from the DATA...</span>
+<span class="o">[1] "Delhi" "Kochi" "Pune"</span>
+<span class="p">&gt;</span> table(sub)                  <span class="c"># ...but still shows up as a 0-count level</span>
+<span class="o">sub
+Delhi Kochi  Pune
+    0     1     2</span>
+<span class="p">&gt;</span> sub2 <- droplevels(sub)
+<span class="p">&gt;</span> levels(sub2)                <span class="c"># now genuinely gone</span>
+<span class="o">[1] "Kochi" "Pune"</span>
+<span class="p">&gt;</span> relevel(city, ref = "Pune") <span class="c"># reorder so "Pune" becomes the first/reference level</span>
+<span class="o">[1] Pune  Kochi Pune  Delhi
+Levels: Pune Delhi Kochi</span></pre>
+        <code class="inline">relevel()</code> is the standard way to control which category a regression model treats as its baseline (Unit&nbsp;9/Module&nbsp;20 GLMs use exactly this).
+      </div>
     </section>
 
     <!-- ============ UNIT 8 ============ -->
@@ -1280,6 +1552,42 @@ A B C
           <div class="solution"><b>Why:</b> filtering with a condition that matches nothing yields a valid data frame with <b>zero rows</b> (not an error, not NA) — <code class="inline">nrow()</code> on it is simply <code class="inline">0</code>.</div>
         </div>
       </details>
+
+      <h3>Combining and summarising data frames</h3>
+      <p>Base R covers joins and group summaries without needing any package — <code class="inline">merge()</code> for joins, <code class="inline">aggregate()</code> for group-wise summaries.</p>
+      <div class="callout example">
+        <span class="tag">Worked example</span>
+        <pre class="console"><span class="p">&gt;</span> students <- data.frame(id = 1:3, name = c("Ana","Bilal","Cyra"))
+<span class="p">&gt;</span> scores   <- data.frame(id = c(2,3,4), score = c(91,76,88))
+<span class="p">&gt;</span> merge(students, scores, by = "id")          <span class="c"># inner join: only ids in BOTH</span>
+<span class="o">  id  name score
+1  2 Bilal    91
+2  3  Cyra    76</span>
+<span class="p">&gt;</span> merge(students, scores, by = "id", all.x = TRUE)  <span class="c"># left join: keep all of "students"</span>
+<span class="o">  id  name score
+1  1   Ana    NA
+2  2 Bilal    91
+3  3  Cyra    76</span>
+<span class="p">&gt;</span> df <- data.frame(state = c("KL","KL","TN"), score = c(78,91,65))
+<span class="p">&gt;</span> aggregate(score ~ state, data = df, FUN = mean)   <span class="c"># group-wise mean, formula interface</span>
+<span class="o">  state score
+1    KL  84.5
+2    TN  65.0</span></pre>
+        <code class="inline">merge()</code> defaults to an <b>inner join</b> (rows present in both frames only); <code class="inline">all=TRUE</code> gives a full outer join, <code class="inline">all.x=TRUE</code>/<code class="inline">all.y=TRUE</code> give left/right joins — unmatched cells become <code class="inline">NA</code>.
+      </div>
+
+      <details class="qcard">
+        <summary>Practice — In base R, which function performs a SQL-style join between two data frames?</summary>
+        <div class="qbody">
+          <ol class="opts">
+            <li>join()</li>
+            <li>combine()</li>
+            <li class="correct">merge()</li>
+            <li>bind_rows()</li>
+          </ol>
+          <div class="solution"><b>Why:</b> <code class="inline">merge()</code> is base R's join function, matched <code class="inline">by</code> a shared key column. <code class="inline">bind_rows()</code> is a <b>dplyr</b> function for stacking rows, not joining columns, and neither <code class="inline">join()</code> nor <code class="inline">combine()</code> exist in base R.</div>
+        </div>
+      </details>
     </section>
 
     <!-- ============ UNIT 9 ============ -->
@@ -1322,6 +1630,87 @@ A B C
             <li>freq</li>
           </ol>
           <div class="solution"><b>Why:</b> <code class="inline">breaks</code> accepts a single number (suggested bin count), a vector of explicit break points, or a naming algorithm like <code class="inline">"Sturges"</code>. <code class="inline">freq=FALSE</code> switches the y-axis to density rather than count — a related but different control.</div>
+        </div>
+      </details>
+
+      <h3>Graphical parameters that show up in exam figures</h3>
+      <div class="twrap">
+      <table class="ref">
+        <thead><tr><th>Parameter</th><th>Controls</th></tr></thead>
+        <tbody>
+          <tr><td><code>pch</code></td><td>point/marker shape (0&ndash;25); e.g. <code>pch=16</code> is a solid circle</td></tr>
+          <tr><td><code>col</code></td><td>colour — a name (<code>"steelblue"</code>), hex code, or a vector recycled per point</td></tr>
+          <tr><td><code>lty</code>, <code>lwd</code></td><td>line type (solid/dashed/dotted) and line width</td></tr>
+          <tr><td><code>cex</code></td><td>character/point size scaling factor (1 = default)</td></tr>
+          <tr><td><code>xlim</code>, <code>ylim</code></td><td>axis range, as <code>c(min, max)</code></td></tr>
+          <tr><td><code>main</code>, <code>xlab</code>, <code>ylab</code></td><td>title and axis labels</td></tr>
+        </tbody>
+      </table>
+      </div>
+      <div class="callout example">
+        <span class="tag">Worked example — colouring points by group</span>
+        <pre class="console"><span class="p">&gt;</span> x <- c(1,2,3,4,5,6); y <- c(3,5,4,8,7,9)
+<span class="p">&gt;</span> grp <- factor(c("A","A","A","B","B","B"))
+<span class="p">&gt;</span> plot(x, y, pch = 16, col = c("steelblue","darkorange")[grp],
++      xlab = "Study hours", ylab = "Score", main = "Score vs hours")
+<span class="p">&gt;</span> legend("topleft", legend = levels(grp), col = c("steelblue","darkorange"), pch = 16)</pre>
+        <code class="inline">c("steelblue","darkorange")[grp]</code> is a common idiom: indexing a 2-colour vector by a factor recycles the right colour for each group, because <code class="inline">grp</code>'s underlying integer codes (1, 1, 1, 2, 2, 2) act as the index.
+      </div>
+
+      <h3>The full base-R plot catalogue</h3>
+      <p>Beyond the five workhorse plots above, base R's <code class="inline">graphics</code> package covers most standard chart types the syllabus expects you to recognise on sight — including a few that only show up as "identify this plot" questions rather than ones you're asked to code from scratch.</p>
+      <div class="twrap">
+      <table class="ref">
+        <thead><tr><th>Function</th><th>Produces</th></tr></thead>
+        <tbody>
+          <tr><td><code>dotchart(x)</code></td><td>a dot plot — one dot per value along a single axis, often used as a cleaner alternative to a bar chart for many categories</td></tr>
+          <tr><td><code>stripchart(x ~ group)</code></td><td>1-D scatter ("jittered strip") of individual points by group — a lightweight alternative to a boxplot for small samples</td></tr>
+          <tr><td><code>mosaicplot(table)</code></td><td>a mosaic plot — tile areas proportional to cell counts in a contingency table, for visualising two categorical variables together</td></tr>
+          <tr><td><code>qqnorm(x)</code> + <code>qqline(x)</code></td><td>normal Q-Q plot — sorted sample quantiles vs. theoretical normal quantiles, with a reference line, to visually check normality</td></tr>
+          <tr><td><code>curve(expr, from, to)</code></td><td>plots a mathematical function directly, e.g. <code>curve(sin(x), 0, 2*pi)</code>, without needing to build x/y vectors first</td></tr>
+          <tr><td><code>pairs(df)</code></td><td>a full scatterplot matrix — every numeric column plotted against every other</td></tr>
+          <tr><td><code>matplot(x, y)</code></td><td>plots multiple y-columns against one x in a single call, one line/point series per column</td></tr>
+          <tr><td><code>contour(x, y, z)</code>, <code>image(x, y, z)</code>, <code>persp(x, y, z)</code></td><td>2-D contour lines, a 2-D heatmap, and a 3-D perspective surface — three ways to visualise a matrix <code>z</code> over a grid</td></tr>
+          <tr><td><code>plot(density(x))</code></td><td>a smoothed kernel density curve — the continuous analogue of a histogram</td></tr>
+          <tr><td><code>coplot(y ~ x | z)</code></td><td>"conditioning plot" — a grid of y-vs-x scatterplots, one panel per slice of a third variable z</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <div class="callout example">
+        <span class="tag">Worked example — checking normality visually</span>
+        <pre class="console"><span class="p">&gt;</span> set.seed(1)
+<span class="p">&gt;</span> x <- rnorm(100, mean = 50, sd = 8)
+<span class="p">&gt;</span> qqnorm(x, main = "Normal Q-Q Plot")
+<span class="p">&gt;</span> qqline(x, col = "red", lwd = 2)   <span class="c"># reference line: perfect normality would sit exactly on this</span></pre>
+        Points hugging the red reference line closely indicate the sample is plausibly normal; systematic curvature at the ends (heavy/light tails) or an S-shape (skew) is what <code class="inline">qqnorm()</code> is specifically built to reveal — this is the visual companion to <code class="inline">shapiro.test()</code> (Module&nbsp;19).
+      </div>
+
+      <h3>Saving a plot to a file</h3>
+      <p>A plot drawn interactively goes to the active graphics device (a window). To save one to disk, open a file-based device first, draw the plot exactly as before, then explicitly close the device — forgetting <code class="inline">dev.off()</code> is the single most common reason a saved plot file comes out empty or zero bytes.</p>
+      <pre class="console"><span class="p">&gt;</span> png("scores_hist.png", width = 800, height = 600, res = 120)  <span class="c"># open a PNG device</span>
+<span class="p">&gt;</span> hist(rnorm(200), main = "Scores", col = "steelblue")           <span class="c"># draw as normal</span>
+<span class="p">&gt;</span> dev.off()                                                     <span class="c"># REQUIRED: flushes and closes the file</span>
+<span class="o">png
+  2</span>
+<span class="p">&gt;</span> pdf("report_figures.pdf", width = 7, height = 5)   <span class="c"># pdf()/jpeg()/tiff()/svg() work the same way</span>
+<span class="p">&gt;</span> plot(1:10); dev.off()</pre>
+
+      <div class="callout trap">
+        <span class="tag">Exam trap</span>
+        <code class="inline">dev.off()</code> is not optional cleanup — until it's called, the file device stays open and nothing is actually written to disk (or the file is left incomplete/corrupt). <code class="inline">dev.list()</code> shows every currently open graphics device, and <code class="inline">graphics.off()</code> closes all of them at once.
+      </div>
+
+      <details class="qcard">
+        <summary>Practice — Which base-R function is purpose-built to check whether a sample looks normally distributed, by comparing it to theoretical normal quantiles?</summary>
+        <div class="qbody">
+          <ol class="opts">
+            <li>hist()</li>
+            <li>boxplot()</li>
+            <li class="correct">qqnorm()</li>
+            <li>pairs()</li>
+          </ol>
+          <div class="solution"><b>Why:</b> <code class="inline">qqnorm()</code> plots the sample's sorted values against the quantiles a normal distribution would predict; points falling on a straight line (usually drawn with <code class="inline">qqline()</code>) indicate normality. A histogram can hint at shape but doesn't give this direct theoretical comparison.</div>
         </div>
       </details>
     </section>
@@ -1392,6 +1781,36 @@ A B C
             <li>sapply(1:5, sum(x^2))</li>
           </ol>
           <div class="solution"><b>Why:</b> <code class="inline">sapply(1:5, function(x) x^2)</code> squares each element to give <code class="inline">c(1,4,9,16,25)</code>; wrapping in <code class="inline">sum()</code> gives 55. Option D fails because <code class="inline">x</code> isn't defined outside the anonymous function.</div>
+        </div>
+      </details>
+
+      <h3>Variable-length arguments with <code class="inline">...</code> (dots)</h3>
+      <p>A function can accept an arbitrary number of extra arguments via <code class="inline">...</code>, then forward them on to another function — this is exactly how <code class="inline">print()</code>, <code class="inline">cat()</code>, <code class="inline">sum()</code> and <code class="inline">paste()</code> all accept any number of inputs.</p>
+      <div class="callout example">
+        <span class="tag">Worked example</span>
+        <pre class="console"><span class="p">&gt;</span> combine_and_sum <- function(...) {
++   vals <- c(...)          <span class="c"># gather every extra argument into one vector</span>
++   list(inputs = vals, total = sum(vals))
++ }
+<span class="p">&gt;</span> combine_and_sum(3, 7, 10, 2)
+<span class="o">$inputs
+[1]  3  7 10  2
+
+$total
+[1] 22</span></pre>
+        <code class="inline">...</code> is also how you write a wrapper that passes extra styling options straight through to a plotting function without listing every possible argument by name: <code class="inline">my_plot <- function(x, y, ...) plot(x, y, ...)</code> forwards anything the caller adds (<code class="inline">col=</code>, <code class="inline">pch=</code>, and so on).
+      </div>
+
+      <details class="qcard">
+        <summary>Practice — Inside a function, what does <code class="inline">Recall()</code> do?</summary>
+        <div class="qbody">
+          <ol class="opts">
+            <li>Undoes the last assignment</li>
+            <li class="correct">Re-calls the currently executing function itself (useful for anonymous recursive functions)</li>
+            <li>Reloads a package</li>
+            <li>Restarts the R session</li>
+          </ol>
+          <div class="solution"><b>Why:</b> <code class="inline">Recall()</code> lets a function refer to itself recursively without needing to know its own name — handy inside an anonymous function assigned on the fly, where writing the function's own name (as ordinary recursion would) isn't possible.</div>
         </div>
       </details>
     </section>
@@ -1654,6 +2073,42 @@ A B C
         <span class="tag">Exam trap</span>
         <code class="inline">&lt;-</code> inside a function always creates or updates a <b>local</b> binding. <code class="inline">&lt;&lt;-</code> ("superassignment") instead searches <b>enclosing</b> environments for an existing binding of that name and updates the first one it finds — or creates one in the global environment if none exists anywhere in the chain. This is precisely the mechanism that makes the counter closure above work.
       </div>
+
+      <h3>Creating and inspecting environments directly</h3>
+      <p>Environments are first-class objects too — you can create one explicitly with <code class="inline">new.env()</code>, inspect what it holds with <code class="inline">ls()</code>/<code class="inline">environmentName()</code>, and use <code class="inline">local()</code> to run code in a throwaway environment that doesn't pollute the caller's workspace.</p>
+      <div class="callout example">
+        <span class="tag">Worked example</span>
+        <pre class="console"><span class="p">&gt;</span> e <- new.env()
+<span class="p">&gt;</span> assign("score", 91, envir = e)     <span class="c"># or: e$score &lt;- 91</span>
+<span class="p">&gt;</span> get("score", envir = e)
+<span class="o">[1] 91</span>
+<span class="p">&gt;</span> ls(e)
+<span class="o">[1] "score"</span>
+<span class="p">&gt;</span> exists("score", envir = e)
+<span class="o">[1] TRUE</span>
+<span class="p">&gt;</span> result <- local({                  <span class="c"># runs in a fresh, temporary environment</span>
++   tmp <- 100
++   tmp * 2
++ })
+<span class="p">&gt;</span> result
+<span class="o">[1] 200</span>
+<span class="p">&gt;</span> exists("tmp")                     <span class="c"># tmp never leaked into the global environment</span>
+<span class="o">[1] FALSE</span></pre>
+        Unlike almost every other R object, environments have <b>reference semantics</b>: assigning <code class="inline">e2 &lt;- e</code> does not copy <code class="inline">e</code> — both names point at the same underlying environment, so modifying one through either name is visible through the other.
+      </div>
+
+      <details class="qcard">
+        <summary>Practice — <code class="inline">e1 &lt;- new.env(); e2 &lt;- e1; e2$x &lt;- 5</code>. What is <code class="inline">e1$x</code>?</summary>
+        <div class="qbody">
+          <ol class="opts">
+            <li>NULL</li>
+            <li>Error: x not found</li>
+            <li class="correct">5</li>
+            <li>Depends on which was modified last</li>
+          </ol>
+          <div class="solution"><b>Why:</b> environments are R's one built-in <b>reference-semantics</b> type (like a pointer/object reference in other languages) — unlike vectors, lists, or data frames, which are copied on modification. <code class="inline">e2 &lt;- e1</code> creates a second name for the <i>same</i> environment, so writing through <code class="inline">e2</code> is visible through <code class="inline">e1</code> too.</div>
+        </div>
+      </details>
     </section>
 
     <!-- ============ UNIT 12 ============ -->
@@ -1701,6 +2156,40 @@ A B C
         <span class="tag">Exam-relevant fact</span>
         Order of severity, low to high: <code class="inline">message</code> &lt; <code class="inline">warning</code> &lt; <code class="inline">error</code>. Only an <b>error</b> stops execution outright; a script can run to completion despite any number of warnings, which are collected and reported afterward (or shown immediately if <code class="inline">options(warn = 1)</code> is set).
       </div>
+
+      <h3>Catching warnings without stopping execution</h3>
+      <p>Because <code class="inline">error=</code> in <code class="inline">tryCatch()</code> only fires on actual errors, a separate <code class="inline">warning=</code> handler is needed to intercept warnings — and once caught, execution does <b>not</b> resume at the point the warning was raised; it exits the whole <code class="inline">tryCatch()</code> block, just like an error would.</p>
+      <div class="callout example">
+        <span class="tag">Worked example</span>
+        <pre class="console"><span class="p">&gt;</span> safe_log <- function(x) {
++   tryCatch({
++     log(x)
++   },
++   warning = function(w) {
++     message("Warning caught: ", conditionMessage(w))
++     NA_real_
++   })
++ }
+<span class="p">&gt;</span> safe_log(4)
+<span class="o">[1] 1.386294</span>
+<span class="p">&gt;</span> safe_log(-4)         <span class="c"># log() of a negative number warns, doesn't error</span>
+<span class="c">Warning caught: NaNs produced</span>
+<span class="o">[1] NA</span></pre>
+        Compare this to <code class="inline">withCallingHandlers()</code>, which handles a warning <i>and then resumes</i> execution right after the point it was raised — useful when you want to log a warning but still let the calculation finish, rather than abandoning the whole block the way <code class="inline">tryCatch()</code> does.
+      </div>
+
+      <details class="qcard">
+        <summary>Practice — What is the key difference between <code class="inline">try()</code> and <code class="inline">tryCatch()</code>?</summary>
+        <div class="qbody">
+          <ol class="opts">
+            <li>try() is for warnings, tryCatch() is for errors only</li>
+            <li class="correct">try() just suppresses/returns the error as a "try-error" object; tryCatch() lets you supply separate custom handlers per condition type</li>
+            <li>They are exact synonyms</li>
+            <li>try() only works inside functions</li>
+          </ol>
+          <div class="solution"><b>Why:</b> <code class="inline">try()</code> is the lightweight option — on error it just returns a <code class="inline">"try-error"</code>-classed object instead of halting. <code class="inline">tryCatch()</code> is the full-featured version: separate handler functions for <code class="inline">error=</code>, <code class="inline">warning=</code>, <code class="inline">message=</code>, plus an optional <code class="inline">finally=</code> block that always runs.</div>
+        </div>
+      </details>
     </section>
 
     <!-- ============ UNIT 13 ============ -->
@@ -1742,6 +2231,33 @@ A B C
         <span class="tag">Exam trap</span>
         By default R's regex functions use <b>POSIX extended</b> syntax, not PCRE — pass <code class="inline">perl = TRUE</code> to unlock Perl-style features like lookaheads (<code class="inline">(?=...)</code>). Also remember that a literal backslash inside an R string must itself be escaped: the regex <code class="inline">\d</code> is written as the R string <code class="inline">"\\d"</code>.
       </div>
+
+      <h3>Capture groups &amp; back-references</h3>
+      <p>Parentheses in a pattern create <b>capture groups</b>, which <code class="inline">sub()</code>/<code class="inline">gsub()</code> can reuse in the replacement string via <code class="inline">\1</code>, <code class="inline">\2</code>, and so on — this is how you rearrange or extract parts of a matched string.</p>
+      <div class="callout example">
+        <span class="tag">Worked example</span>
+        <pre class="console"><span class="p">&gt;</span> names <- c("Divakaran, Mahesh", "Rao, Priya")
+<span class="p">&gt;</span> sub("(\\w+), (\\w+)", "\\2 \\1", names)   <span class="c"># swap "Last, First" -&gt; "First Last"</span>
+<span class="o">[1] "Mahesh Divakaran" "Priya Rao"</span>
+<span class="p">&gt;</span> phone <- "Call 080-4455-2211 today"
+<span class="p">&gt;</span> m <- regmatches(phone, regexpr("[0-9]{2,4}-[0-9]{4}-[0-9]{4}", phone))
+<span class="p">&gt;</span> m
+<span class="o">[1] "080-4455-2211"</span></pre>
+        <code class="inline">\\1</code>/<code class="inline">\\2</code> refer to the 1st and 2nd parenthesised groups <i>in the pattern</i>, not in the replacement — a frequent source of confusion. <code class="inline">regexpr()</code> finds only the <b>first</b> match's position; <code class="inline">gregexpr()</code> finds all matches, and needs <code class="inline">regmatches()</code> applied the same way to extract them.
+      </div>
+
+      <details class="qcard">
+        <summary>Practice — What does <code class="inline">sub("(\\d+)-(\\d+)", "\\2-\\1", "10-20")</code> return?</summary>
+        <div class="qbody">
+          <ol class="opts">
+            <li>"10-20"</li>
+            <li class="correct">"20-10"</li>
+            <li>Error</li>
+            <li>"\\2-\\1"</li>
+          </ol>
+          <div class="solution"><b>Why:</b> the pattern captures two digit groups — group 1 = "10", group 2 = "20". The replacement <code class="inline">"\\2-\\1"</code> swaps their order, giving <code class="inline">"20-10"</code>.</div>
+        </div>
+      </details>
     </section>
 
     <!-- ============ UNIT 14 ============ -->
@@ -1776,6 +2292,35 @@ A B C
         <span class="tag">Exam-relevant fact</span>
         <code class="inline">Sys.Date()</code> returns a <code class="inline">Date</code>; <code class="inline">Sys.time()</code> returns a <code class="inline">POSIXct</code>. Subtracting two <code class="inline">Date</code>/<code class="inline">POSIXct</code> objects returns a <code class="inline">difftime</code> object, not a plain number — wrap it in <code class="inline">as.numeric()</code> to get a bare value.
       </div>
+
+      <h3>Parsing dates from custom formats</h3>
+      <p>Real-world data rarely arrives as tidy <code class="inline">"YYYY-MM-DD"</code>. <code class="inline">as.Date()</code>'s <code class="inline">format=</code> argument tells R how to read whatever layout it's given, using the same <code class="inline">%d</code>/<code class="inline">%m</code>/<code class="inline">%Y</code> codes used for output formatting.</p>
+      <div class="callout example">
+        <span class="tag">Worked example</span>
+        <pre class="console"><span class="p">&gt;</span> as.Date("24/04/2026", format = "%d/%m/%Y")
+<span class="o">[1] "2026-04-24"</span>
+<span class="p">&gt;</span> as.Date("April 24, 2026", format = "%B %d, %Y")
+<span class="o">[1] "2026-04-24"</span>
+<span class="p">&gt;</span> d1 <- as.Date("2026-01-01"); d2 <- as.Date("2026-04-24")
+<span class="p">&gt;</span> d2 - d1                       <span class="c"># a difftime object, not a bare number</span>
+<span class="o">Time difference of 113 days</span>
+<span class="p">&gt;</span> as.numeric(d2 - d1)           <span class="c"># strip the difftime wrapper</span>
+<span class="o">[1] 113</span></pre>
+        The most-confused format codes: <code class="inline">%Y</code> is a 4-digit year, <code class="inline">%y</code> is 2-digit; <code class="inline">%m</code> is a numeric month (01&ndash;12), <code class="inline">%B</code> is the full month name, <code class="inline">%b</code> the abbreviated name.
+      </div>
+
+      <details class="qcard">
+        <summary>Practice — <code class="inline">as.Date("15-08-2026", format="%d-%m-%Y") - as.Date("01-08-2026", format="%d-%m-%Y")</code> gives what class of result?</summary>
+        <div class="qbody">
+          <ol class="opts">
+            <li>numeric</li>
+            <li class="correct">difftime</li>
+            <li>Date</li>
+            <li>character</li>
+          </ol>
+          <div class="solution"><b>Why:</b> subtracting two <code class="inline">Date</code> objects always returns a <code class="inline">difftime</code> object (here, "Time difference of 14 days"), which prints like a number but isn't one until you call <code class="inline">as.numeric()</code> on it.</div>
+        </div>
+      </details>
     </section>
 
     <!-- ============ UNIT 15 ============ -->
@@ -1818,6 +2363,35 @@ A B C
         <span class="tag">Exam trap</span>
         S3 and S4 objects are normally <b>copy-on-modify</b> (R's default value semantics — changing a copy never affects the original). <b>R6</b> objects are the exception: they use <b>reference semantics</b>, so <code class="inline">c2 &lt;- c1; c2$increment()</code> also changes <code class="inline">c1$n</code>, because <code class="inline">c1</code> and <code class="inline">c2</code> point to the same underlying object.
       </div>
+
+      <h3>S3 inheritance with <code class="inline">NextMethod()</code></h3>
+      <p>An S3 object can have <b>several</b> classes at once (a character vector), and method dispatch tries them left to right. <code class="inline">NextMethod()</code> inside a method hands control to the next class in that chain — the standard way to extend a generic's default behaviour rather than replacing it outright.</p>
+      <div class="callout example">
+        <span class="tag">Worked example</span>
+        <pre class="console"><span class="p">&gt;</span> honours_student <- list(name = "Zara", marks = 97)
+<span class="p">&gt;</span> class(honours_student) <- c("honours", "student")   <span class="c"># two classes, most specific first</span>
+<span class="p">&gt;</span> print.student  <- function(x, ...) cat("Student:", x$name, "-", x$marks, "\n")
+<span class="p">&gt;</span> print.honours  <- function(x, ...) {
++   cat("[HONOURS] ")
++   NextMethod()               <span class="c"># falls through to print.student</span>
++ }
+<span class="p">&gt;</span> print(honours_student)
+<span class="o">[HONOURS] Student: Zara - 97</span></pre>
+        R dispatches <code class="inline">print()</code> to <code class="inline">print.honours</code> first (the first class listed); that method prints its own prefix, then calls <code class="inline">NextMethod()</code> to run <code class="inline">print.student</code> for the rest — the same layering idea inheritance provides in Java/Python, built from an ordered class vector instead of a formal class hierarchy.
+      </div>
+
+      <details class="qcard">
+        <summary>Practice — In S4, how do you access a slot named <code class="inline">w</code> on an object <code class="inline">r</code>?</summary>
+        <div class="qbody">
+          <ol class="opts">
+            <li>r$w</li>
+            <li>r[["w"]]</li>
+            <li class="correct">r@w</li>
+            <li>r.w</li>
+          </ol>
+          <div class="solution"><b>Why:</b> S4 objects use <code class="inline">@</code> for slot access, deliberately distinct from S3/list's <code class="inline">$</code> — a reliable way to spot S4 code in an unfamiliar script at a glance.</div>
+        </div>
+      </details>
     </section>
 
     <!-- ============ UNIT 16 ============ -->
@@ -1854,6 +2428,42 @@ A B C
         <span class="tag">Exam-relevant fact</span>
         Base R's <code class="inline">|&gt;</code> (from R 4.1.0) and magrittr's <code class="inline">%&gt;%</code> (used throughout the tidyverse before that) do the same basic job, but <code class="inline">%&gt;%</code> supports extra features like the <code class="inline">.</code> placeholder for non-first-argument piping, which the native pipe historically lacked.
       </div>
+
+      <h3>Chaining filter, mutate &amp; arrange together</h3>
+      <p>A realistic dplyr pipeline usually strings several verbs together — filter rows down, add a computed column, then sort — each stage passing its result to the next via the pipe.</p>
+      <div class="callout example">
+        <span class="tag">Worked example</span>
+        <pre class="console"><span class="p">&gt;</span> df <- data.frame(
++   student = c("Anu","Bilal","Cyra","Divya"),
++   marks   = c(78, 91, 65, 88),
++   present = c(TRUE, TRUE, FALSE, TRUE)
++ )
+<span class="p">&gt;</span> df |&gt;
++   filter(present) |&gt;                       <span class="c"># drop absentees first</span>
++   mutate(grade = ifelse(marks >= 80, "A", "B")) |&gt;
++   arrange(desc(marks)) |&gt;
++   select(student, marks, grade)
+<span class="o"># A tibble: 3 x 3
+  student marks grade
+  &lt;chr&gt;   &lt;dbl&gt; &lt;chr&gt;
+1 Bilal      91 A
+2 Divya      88 A
+3 Anu        78 B</span></pre>
+        Order matters here: <code class="inline">filter()</code> runs first so later steps only see present students; <code class="inline">mutate()</code> can reference columns created earlier in the <i>same</i> <code class="inline">mutate()</code> call, but not ones defined later in the pipeline.
+      </div>
+
+      <details class="qcard">
+        <summary>Practice — Which dplyr verb collapses grouped rows down to one summary row per group?</summary>
+        <div class="qbody">
+          <ol class="opts">
+            <li>mutate()</li>
+            <li>filter()</li>
+            <li class="correct">summarise()</li>
+            <li>arrange()</li>
+          </ol>
+          <div class="solution"><b>Why:</b> <code class="inline">summarise()</code> (paired with <code class="inline">group_by()</code>) collapses each group to a single row of aggregate statistics. <code class="inline">mutate()</code> instead adds a new column while keeping every original row — a common point of confusion since both can compute a mean.</div>
+        </div>
+      </details>
     </section>
 
     <!-- ============ UNIT 17 ============ -->
@@ -1880,6 +2490,198 @@ A B C
         <span class="tag">Exam trap</span>
         <code class="inline">aes(colour = "blue")</code> does <b>not</b> make the points blue — it creates a legend with one category literally named "blue" and maps it to ggplot's first default colour. To fix a colour, set it outside <code class="inline">aes()</code>: <code class="inline">geom_point(colour = "blue")</code>.
       </div>
+
+      <h3>The eight layers of the grammar of graphics</h3>
+      <p>Hadley Wickham's "layered grammar of graphics" is the formal idea ggplot2 implements: instead of one function per chart type, <b>every</b> plot is assembled from the same small set of independent building blocks, stacked with <code class="inline">+</code>. Once you can name which layer a piece of code belongs to, unfamiliar ggplot2 code stops being mysterious. The eight components below cover it completely — the first seven are Wickham's original grammar; <b>theme</b> is the everyday eighth layer that controls everything <i>non-data</i> about the plot's appearance.</p>
+
+      <h4>1. Data</h4>
+      <p>The data frame ggplot2 draws from — always the <b>first, unnamed argument</b> to <code class="inline">ggplot()</code>, or supplied per-layer to override it for just one geom. Every column ggplot2 will ever plot must live in this data frame; unlike base <code class="inline">plot()</code>, you never hand it bare vectors.</p>
+      <pre class="console"><span class="p">&gt;</span> ggplot(data = mtcars)   <span class="c"># data layer alone -- draws an empty panel, nothing mapped yet</span></pre>
+
+      <h4>2. Aesthetics (<code class="inline">aes()</code>)</h4>
+      <p>The mapping from data columns to visual properties — x position, y position, colour, fill, size, shape, linetype, alpha, group. Anything set inside <code class="inline">aes()</code> <b>varies with the data</b>; anything set outside it (as a plain geom argument) is <b>fixed</b> for the whole layer. This single distinction is the most-tested ggplot2 idea on NET-style papers.</p>
+      <pre class="console"><span class="p">&gt;</span> ggplot(mtcars, aes(x = wt, y = mpg, colour = factor(cyl)))  <span class="c"># x, y, colour all mapped to columns</span></pre>
+
+      <h4>3. Geometries (geoms)</h4>
+      <p>The actual <b>shape</b> drawn to represent each row — points, bars, lines, boxes, and so on. A plot needs at least one geom layer to show anything at all; adding several geoms (e.g. <code class="inline">geom_point() + geom_smooth()</code>) overlays them on the same axes.</p>
+      <pre class="console"><span class="p">&gt;</span> ggplot(mtcars, aes(wt, mpg)) + geom_point()   <span class="c"># now something actually draws</span></pre>
+
+      <h4>4. Statistics (stats)</h4>
+      <p>A transformation applied to the data <b>before</b> drawing — binning for a histogram, counting for a bar chart, smoothing for a trend line. Every geom has a default stat baked in (e.g. <code class="inline">geom_bar()</code> defaults to <code class="inline">stat_count()</code>, <code class="inline">geom_histogram()</code> to <code class="inline">stat_bin()</code>), and every stat has a default geom — the two are two sides of the same layer, which is why you can call either <code class="inline">geom_bar()</code> or the (rarer) <code class="inline">stat_count()</code> and get the same plot.</p>
+      <pre class="console"><span class="p">&gt;</span> ggplot(mtcars, aes(factor(cyl))) + geom_bar()          <span class="c"># stat_count() runs first, THEN bars are drawn</span>
+<span class="p">&gt;</span> ggplot(mtcars, aes(wt, mpg)) + geom_point() + stat_smooth(method = "lm")  <span class="c"># a stat used directly</span></pre>
+
+      <h4>5. Scales</h4>
+      <p>Scales control <b>how</b> a data value maps to a visual value — which numbers land where on the x-axis, which colour represents which category, whether an axis is linear or log. Every aesthetic you map gets a scale automatically; you only add a <code class="inline">scale_*()</code> layer when you want to override the default (custom colours, a log axis, comma-formatted labels).</p>
+      <pre class="console"><span class="p">&gt;</span> ggplot(mtcars, aes(wt, mpg, colour = factor(cyl))) + geom_point() +
++   scale_colour_manual(values = c("4" = "seagreen", "6" = "goldenrod", "8" = "firebrick")) +
++   scale_y_continuous(breaks = seq(10, 35, 5))</pre>
+
+      <h4>6. Coordinate system</h4>
+      <p>How x/y positions are mapped onto the physical page — Cartesian (the default) is what almost every plot uses, but <code class="inline">coord_flip()</code> swaps the axes, <code class="inline">coord_polar()</code> bends the Cartesian grid into a circle (how ggplot2 builds pie charts, since it has no <code class="inline">geom_pie()</code>), and <code class="inline">coord_fixed()</code> forces a fixed aspect ratio between the two axes.</p>
+      <pre class="console"><span class="p">&gt;</span> ggplot(mtcars, aes(factor(cyl))) + geom_bar() + coord_flip()   <span class="c"># horizontal bars, same data/geom</span></pre>
+
+      <h4>7. Facets</h4>
+      <p>Splits one plot into a grid of small-multiple panels, one per level (or level-combination) of a categorical variable — <code class="inline">facet_wrap(~var)</code> wraps panels into a roughly-square grid you don't have to size by hand; <code class="inline">facet_grid(rows ~ cols)</code> lays panels out on an explicit 2-D grid, one row-variable crossed with one column-variable.</p>
+      <pre class="console"><span class="p">&gt;</span> ggplot(mtcars, aes(wt, mpg)) + geom_point() + facet_grid(am ~ cyl)  <span class="c"># 2 rows (am) x 3 cols (cyl)</span></pre>
+
+      <h4>8. Theme</h4>
+      <p>Everything about the plot that is <b>not</b> data-driven — background colour, gridlines, font sizes, legend position, panel borders. A complete theme (<code class="inline">theme_minimal()</code>, <code class="inline">theme_bw()</code>, ...) sets all of these at once; the <code class="inline">theme()</code> function tweaks individual elements on top of whichever complete theme is active.</p>
+      <pre class="console"><span class="p">&gt;</span> ggplot(mtcars, aes(wt, mpg)) + geom_point() +
++   theme_minimal() +
++   theme(legend.position = "bottom", plot.title = element_text(face = "bold"))</pre>
+
+      <div class="callout fact">
+        <span class="tag">Exam-relevant fact</span>
+        A useful memory device: <b>Data</b> and <b>Aesthetics</b> say <i>what</i> to plot; <b>Geom</b> and <b>Stat</b> say <i>how</i> to draw/transform it; <b>Scale</b> and <b>Coord</b> say <i>where</i> it lands on the page; <b>Facet</b> says <i>how many times</i> to repeat the plot; <b>Theme</b> says how it all <i>looks</i>, without touching the data at all. Every ggplot2 call is built from some subset of these eight, always combined with <code class="inline">+</code>.
+      </div>
+
+      <h3>Reference: geoms, stats, scales, coordinates &amp; themes</h3>
+
+      <h4>Common geoms, by chart type</h4>
+      <div class="twrap">
+      <table class="ref">
+        <thead><tr><th>Geom</th><th>Draws</th><th>Default stat</th></tr></thead>
+        <tbody>
+          <tr><td><code>geom_point()</code></td><td>scatter plot points</td><td><code>identity</code></td></tr>
+          <tr><td><code>geom_line()</code></td><td>lines, connecting points <b>in x order</b></td><td><code>identity</code></td></tr>
+          <tr><td><code>geom_path()</code></td><td>lines, connecting points in <b>data (row) order</b> — not resorted by x</td><td><code>identity</code></td></tr>
+          <tr><td><code>geom_col()</code></td><td>bars with heights taken directly from a y column</td><td><code>identity</code></td></tr>
+          <tr><td><code>geom_bar()</code></td><td>bars of <b>counted</b> occurrences — no y column needed</td><td><code>count</code></td></tr>
+          <tr><td><code>geom_histogram()</code></td><td>a histogram of one continuous variable, auto-binned</td><td><code>bin</code></td></tr>
+          <tr><td><code>geom_boxplot()</code></td><td>box-and-whisker summary per group</td><td><code>boxplot</code></td></tr>
+          <tr><td><code>geom_violin()</code></td><td>a mirrored density curve per group — a boxplot that also shows shape</td><td><code>ydensity</code></td></tr>
+          <tr><td><code>geom_density()</code></td><td>a smoothed kernel density curve</td><td><code>density</code></td></tr>
+          <tr><td><code>geom_smooth()</code></td><td>a fitted trend line with a confidence ribbon (<code>method="lm"</code>, <code>"loess"</code>, ...)</td><td><code>smooth</code></td></tr>
+          <tr><td><code>geom_area()</code>, <code>geom_ribbon()</code></td><td>filled area under a line / between two y bounds</td><td><code>align</code>/<code>identity</code></td></tr>
+          <tr><td><code>geom_tile()</code>, <code>geom_raster()</code></td><td>a heatmap — coloured rectangular cells on an x/y grid</td><td><code>identity</code></td></tr>
+          <tr><td><code>geom_text()</code>, <code>geom_label()</code></td><td>text annotations at data points (label adds a background box)</td><td><code>identity</code></td></tr>
+          <tr><td><code>geom_errorbar()</code></td><td>vertical error-bar whiskers, given <code>ymin</code>/<code>ymax</code></td><td><code>identity</code></td></tr>
+          <tr><td><code>geom_jitter()</code></td><td>scatter points with small random noise added — de-overlaps discrete data</td><td><code>identity</code></td></tr>
+          <tr><td><code>geom_hline()</code>, <code>geom_vline()</code>, <code>geom_abline()</code></td><td>reference lines — horizontal, vertical, or <code>y=a+bx</code></td><td><code>identity</code></td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h4>Common stats (usable directly, or via a geom's default)</h4>
+      <div class="twrap">
+      <table class="ref">
+        <thead><tr><th>Stat</th><th>Transformation</th><th>Matching geom</th></tr></thead>
+        <tbody>
+          <tr><td><code>stat_count()</code></td><td>counts occurrences of each discrete x value</td><td><code>geom_bar()</code></td></tr>
+          <tr><td><code>stat_bin()</code></td><td>bins a continuous variable and counts per bin</td><td><code>geom_histogram()</code></td></tr>
+          <tr><td><code>stat_smooth()</code></td><td>fits a model (linear/loess/GLM) and returns predicted values + CI band</td><td><code>geom_smooth()</code></td></tr>
+          <tr><td><code>stat_summary(fun=)</code></td><td>applies a summary function (mean, median, ...) per x group</td><td><code>geom_point()</code>/<code>geom_bar()</code>/<code>geom_line()</code></td></tr>
+          <tr><td><code>stat_density()</code></td><td>kernel density estimate</td><td><code>geom_density()</code></td></tr>
+          <tr><td><code>stat_ecdf()</code></td><td>empirical cumulative distribution function</td><td><code>geom_step()</code></td></tr>
+          <tr><td><code>stat_qq()</code>, <code>stat_qq_line()</code></td><td>quantile-quantile points/line against a theoretical distribution</td><td><code>geom_point()</code>/<code>geom_line()</code></td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h4>Common scales &amp; coordinate systems</h4>
+      <div class="twrap">
+      <table class="ref">
+        <thead><tr><th>Function</th><th>Purpose</th></tr></thead>
+        <tbody>
+          <tr><td><code>scale_x_continuous()</code>, <code>scale_y_continuous()</code></td><td>control breaks, limits, and labels on a numeric axis</td></tr>
+          <tr><td><code>scale_x_log10()</code></td><td>plot a numeric axis on a log<sub>10</sub> scale</td></tr>
+          <tr><td><code>scale_colour_manual(values=)</code>, <code>scale_fill_manual(values=)</code></td><td>hand-pick exact colours per category</td></tr>
+          <tr><td><code>scale_colour_gradient()</code>, <code>scale_fill_viridis_c()</code></td><td>continuous colour gradients for a numeric aesthetic</td></tr>
+          <tr><td><code>scale_x_discrete(limits=)</code></td><td>control the order/inclusion of categories on a discrete axis</td></tr>
+          <tr><td><code>coord_cartesian(xlim=, ylim=)</code></td><td>zoom the view without dropping data (unlike <code>scale_*(limits=)</code>, which discards out-of-range rows)</td></tr>
+          <tr><td><code>coord_flip()</code></td><td>swap x and y — the classic way to get horizontal bars</td></tr>
+          <tr><td><code>coord_polar(theta="x")</code></td><td>wrap the x-axis around a circle — how pie/rose charts are built</td></tr>
+          <tr><td><code>coord_fixed(ratio=)</code></td><td>force a fixed aspect ratio between x and y units</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <div class="callout trap">
+        <span class="tag">Exam trap — scale limits vs. coord limits</span>
+        <code class="inline">scale_x_continuous(limits = c(0,10))</code> <b>discards</b> rows outside that range before any stat runs (e.g. it can silently change a computed regression line). <code class="inline">coord_cartesian(xlim = c(0,10))</code> only <b>zooms the view</b> — every row is still used for any statistical calculation, just not all of them are visible. This distinction is a favourite "what's the difference" NET question.
+      </div>
+
+      <h4>Built-in complete themes</h4>
+      <div class="twrap">
+      <table class="ref">
+        <thead><tr><th>Theme</th><th>Look</th></tr></thead>
+        <tbody>
+          <tr><td><code>theme_grey()</code></td><td>ggplot2's default — grey panel background, white gridlines</td></tr>
+          <tr><td><code>theme_bw()</code></td><td>white background with a thin black panel border — print-friendly</td></tr>
+          <tr><td><code>theme_minimal()</code></td><td>no panel background or border, faint gridlines only — the most commonly used "clean" theme</td></tr>
+          <tr><td><code>theme_classic()</code></td><td>only x/y axis lines, no gridlines at all — closest to a traditional base-R look</td></tr>
+          <tr><td><code>theme_void()</code></td><td>strips away everything except the geoms themselves — no axes, no gridlines, no background</td></tr>
+          <tr><td><code>theme_dark()</code>, <code>theme_light()</code></td><td>dark panel background / very light thin gridlines, for emphasis or subtlety respectively</td></tr>
+        </tbody>
+      </table>
+      </div>
+      <p>Beyond picking a complete theme, <code class="inline">theme()</code> edits any individual element on top of it, using helper functions that match the element's type: <code class="inline">element_text()</code> for text (size, face, colour, angle), <code class="inline">element_line()</code> for lines, <code class="inline">element_rect()</code> for backgrounds/borders, and <code class="inline">element_blank()</code> to remove an element entirely.</p>
+      <div class="callout example">
+        <span class="tag">Worked example — customising a theme</span>
+        <pre class="console"><span class="p">&gt;</span> ggplot(mtcars, aes(wt, mpg)) +
++   geom_point(colour = "steelblue", size = 2) +
++   theme_minimal() +
++   theme(
++     panel.grid.minor = element_blank(),                 <span class="c"># drop minor gridlines</span>
++     axis.title = element_text(face = "bold", size = 12),
++     legend.position = "none"
++   )</pre>
+        <code class="inline">theme()</code> calls are additive on top of whichever complete theme came before them in the <code class="inline">+</code> chain — order matters: a <code class="inline">theme()</code> tweak listed <i>after</i> <code class="inline">theme_minimal()</code> overrides it; listed before, it would itself be overridden.
+      </div>
+
+      <details class="qcard">
+        <summary>Practice — <code class="inline">geom_bar()</code>'s default statistical transformation is:</summary>
+        <div class="qbody">
+          <ol class="opts">
+            <li>stat_identity()</li>
+            <li class="correct">stat_count()</li>
+            <li>stat_bin()</li>
+            <li>stat_smooth()</li>
+          </ol>
+          <div class="solution"><b>Why:</b> <code class="inline">geom_bar()</code> counts how many rows fall into each discrete x value before drawing — that's <code class="inline">stat_count()</code>. If you already have precomputed heights and want bars drawn exactly as given (no counting), you'd use <code class="inline">geom_col()</code> instead, whose default stat is <code class="inline">identity</code>.</div>
+        </div>
+      </details>
+
+      <details class="qcard">
+        <summary>Practice — Which is the correct way to zoom a plot's y-axis to 15&ndash;25 <b>without</b> discarding any data used for a fitted <code class="inline">geom_smooth()</code> line?</summary>
+        <div class="qbody">
+          <ol class="opts">
+            <li>scale_y_continuous(limits = c(15, 25))</li>
+            <li class="correct">coord_cartesian(ylim = c(15, 25))</li>
+            <li>ylim(15, 25)</li>
+            <li>geom_point(ylim = c(15, 25))</li>
+          </ol>
+          <div class="solution"><b>Why:</b> <code class="inline">coord_cartesian()</code> only changes what's visible in the final rendered view — every row is still passed to any stat (like the regression behind <code class="inline">geom_smooth()</code>). <code class="inline">scale_y_continuous(limits=)</code> and the shorthand <code class="inline">ylim()</code> both remove out-of-range rows before stats run, which can visibly change a fitted line.</div>
+        </div>
+      </details>
+
+      <h3>A multi-layer example: scatter + trend line + facets</h3>
+      <p>ggplot2's power shows up once several layers stack on the same coordinate system — a raw scatter, a fitted trend, and per-group panels, built from one shared <code class="inline">aes()</code> mapping.</p>
+      <div class="callout example">
+        <span class="tag">Worked example</span>
+        <pre class="console"><span class="p">&gt;</span> ggplot(mtcars, aes(x = wt, y = mpg)) +
++   geom_point(aes(colour = factor(cyl)), size = 2) +   <span class="c"># colour varies BY DATA -&gt; inside aes()</span>
++   geom_smooth(method = "lm", se = FALSE, colour = "black") +  <span class="c"># fixed colour -&gt; outside aes()</span>
++   facet_wrap(~ cyl) +
++   labs(title = "MPG vs weight, by cylinder count",
++        x = "Weight (1000 lbs)", y = "Miles per gallon", colour = "Cylinders") +
++   theme_minimal()</pre>
+        <code class="inline">geom_smooth(method="lm")</code> overlays a fitted regression line per panel; <code class="inline">facet_wrap(~cyl)</code> splits the single plot into one small panel per distinct value of <code class="inline">cyl</code> — small-multiples, built with one extra line rather than a manual loop over subsets.
+      </div>
+
+      <details class="qcard">
+        <summary>Practice — In ggplot2, what does <code class="inline">facet_wrap(~group)</code> do?</summary>
+        <div class="qbody">
+          <ol class="opts">
+            <li>Colours points by group</li>
+            <li class="correct">Splits the plot into one panel per distinct value of group</li>
+            <li>Filters the data to one group</li>
+            <li>Sorts the data by group</li>
+          </ol>
+          <div class="solution"><b>Why:</b> faceting creates "small multiples" — a separate panel per level of the faceting variable, all sharing the same axes by default (unless <code class="inline">scales = "free"</code> is set) so panels stay visually comparable.</div>
+        </div>
+      </details>
     </section>
 
     <!-- ============ UNIT 18 ============ -->
@@ -1909,6 +2711,33 @@ A B C
         <span class="tag">Exam-relevant fact</span>
         <code class="inline">set.seed(n)</code> makes R's pseudo-random draws (<code class="inline">rnorm()</code>, <code class="inline">sample()</code>, <code class="inline">runif()</code>, ...) exactly reproducible — the same seed always regenerates the same sequence, which is why it's standard practice at the top of any script that uses randomness.
       </div>
+
+      <h3>Worked example: normal-distribution probabilities</h3>
+      <p>A classic exam-style question: "if exam scores are normally distributed with mean 65 and sd 12, what fraction of students score above 80?" — a direct <code class="inline">pnorm()</code> application.</p>
+      <div class="callout example">
+        <span class="tag">Worked example</span>
+        <pre class="console"><span class="p">&gt;</span> mu <- 65; sigma <- 12
+<span class="p">&gt;</span> 1 - pnorm(80, mean = mu, sd = sigma)     <span class="c"># P(X > 80)</span>
+<span class="o">[1] 0.1056498</span>
+<span class="p">&gt;</span> pnorm(80, mu, sigma, lower.tail = FALSE) <span class="c"># same thing, without subtracting from 1</span>
+<span class="o">[1] 0.1056498</span>
+<span class="p">&gt;</span> qnorm(0.90, mu, sigma)                   <span class="c"># score marking the top 10% (90th percentile)</span>
+<span class="o">[1] 80.3777</span></pre>
+        <code class="inline">pnorm()</code> always gives a <b>left-tail</b> (P(X &le; x)) probability by default; either subtract from 1, or pass <code class="inline">lower.tail = FALSE</code> for the right tail — both are equally correct and both appear in NET answer keys.
+      </div>
+
+      <details class="qcard">
+        <summary>Practice — For <code class="inline">X ~ N(100, 15)</code>, which expression gives P(X &gt; 130)?</summary>
+        <div class="qbody">
+          <ol class="opts">
+            <li>pnorm(130, 100, 15)</li>
+            <li class="correct">1 - pnorm(130, 100, 15)</li>
+            <li>qnorm(130, 100, 15)</li>
+            <li>dnorm(130, 100, 15)</li>
+          </ol>
+          <div class="solution"><b>Why:</b> <code class="inline">pnorm()</code> gives the cumulative probability up to (and including) a value — P(X &le; 130). The complement, <code class="inline">1 - pnorm(...)</code>, gives P(X &gt; 130). <code class="inline">qnorm()</code> goes the other direction (probability → value); <code class="inline">dnorm()</code> gives the density, not a probability.</div>
+        </div>
+      </details>
     </section>
 
     <!-- ============ UNIT 19 ============ -->
@@ -1942,6 +2771,36 @@ alternative hypothesis: true difference in means is not equal to 0
         <span class="tag">Exam trap</span>
         R's <code class="inline">t.test()</code> defaults to <b>Welch's</b> t-test (which does <b>not</b> assume equal variances) rather than the classic Student's t-test. Pass <code class="inline">var.equal = TRUE</code> explicitly to get the equal-variance version taught in most introductory statistics courses.
       </div>
+
+      <h3>Chi-squared test of independence</h3>
+      <p><code class="inline">chisq.test()</code> takes a contingency table and tests whether two categorical variables are independent — a very common NET question pairs it with <code class="inline">table()</code> to build that contingency table first.</p>
+      <div class="callout example">
+        <span class="tag">Worked example</span>
+        <pre class="console"><span class="p">&gt;</span> gender <- c("M","M","F","F","M","F","F","M","F","F")
+<span class="p">&gt;</span> pass   <- c("Y","N","Y","Y","Y","N","Y","Y","Y","N")
+<span class="p">&gt;</span> tbl <- table(gender, pass)
+<span class="p">&gt;</span> tbl
+<span class="o">      pass
+gender N Y
+     F 2 4
+     M 1 3</span>
+<span class="p">&gt;</span> chisq.test(tbl)$p.value
+<span class="o">[1] 1</span></pre>
+        A p-value near 1 here means no evidence of association between gender and pass/fail in this (tiny, illustrative) sample. <code class="inline">chisq.test()</code> issues a warning when any expected cell count is below 5 — the classic remedy taught alongside it is <code class="inline">fisher.test()</code>, exact rather than asymptotic, for small samples.
+      </div>
+
+      <details class="qcard">
+        <summary>Practice — <code class="inline">chisq.test()</code> is most appropriate for testing:</summary>
+        <div class="qbody">
+          <ol class="opts">
+            <li>Difference between two means</li>
+            <li class="correct">Association between two categorical variables</li>
+            <li>Whether a sample is normally distributed</li>
+            <li>Correlation between two continuous variables</li>
+          </ol>
+          <div class="solution"><b>Why:</b> the chi-squared test of independence compares an observed contingency table of two categorical variables against what independence would predict. Means → <code class="inline">t.test()</code>/<code class="inline">aov()</code>; normality → <code class="inline">shapiro.test()</code>; correlation → <code class="inline">cor.test()</code>.</div>
+        </div>
+      </details>
     </section>
 
     <!-- ============ UNIT 20 ============ -->
@@ -1967,6 +2826,36 @@ alternative hypothesis: true difference in means is not equal to 0
         <span class="tag">Exam-relevant fact</span>
         <code class="inline">summary(model)</code> reports both R&sup2; ("Multiple R-squared") and adjusted R&sup2;. R&sup2; only ever increases as you add predictors, even useless ones — adjusted R&sup2; penalises extra predictors and is the fairer number for comparing models with different numbers of terms.
       </div>
+
+      <h3>Multiple regression &amp; residual diagnostics</h3>
+      <p>Adding more than one predictor is just a longer formula; checking the fit means looking at the model's residuals, not just R&sup2;.</p>
+      <div class="callout example">
+        <span class="tag">Worked example</span>
+        <pre class="console"><span class="p">&gt;</span> set.seed(7)
+<span class="p">&gt;</span> df <- data.frame(hours = 1:10, prior_score = seq(50, 95, length.out = 10))
+<span class="p">&gt;</span> df$final <- 20 + 3*df$hours + 0.4*df$prior_score + rnorm(10, sd = 3)
+<span class="p">&gt;</span> model2 <- lm(final ~ hours + prior_score, data = df)   <span class="c"># two predictors</span>
+<span class="p">&gt;</span> summary(model2)$coefficients[, "Estimate"]
+<span class="o">(Intercept)       hours prior_score
+  ~20         ~3         ~0.4</span>
+<span class="p">&gt;</span> res <- residuals(model2)
+<span class="p">&gt;</span> plot(fitted(model2), res, xlab = "Fitted", ylab = "Residuals")
+<span class="p">&gt;</span> abline(h = 0, lty = 2)                 <span class="c"># residuals should scatter randomly around 0</span></pre>
+        A well-fitting linear model's residuals should show <b>no pattern</b> against fitted values — a curve or a funnel shape in this plot signals non-linearity or non-constant variance (heteroscedasticity) respectively, both classic diagnostic-plot questions.
+      </div>
+
+      <details class="qcard">
+        <summary>Practice — In <code class="inline">lm(y ~ x1 + x2, data = df)</code>, what does the coefficient on <code class="inline">x1</code> represent?</summary>
+        <div class="qbody">
+          <ol class="opts">
+            <li>The total change in y per unit of x1, ignoring x2</li>
+            <li class="correct">The change in y per unit of x1, holding x2 constant</li>
+            <li>The correlation between x1 and y</li>
+            <li>The R-squared contributed by x1</li>
+          </ol>
+          <div class="solution"><b>Why:</b> in multiple regression, each coefficient is a <b>partial</b> effect — the expected change in the response per unit increase in that predictor, with every other predictor in the model held fixed. This is different from the simple (bivariate) slope you'd get regressing y on x1 alone.</div>
+        </div>
+      </details>
     </section>
 
     <!-- ============ UNIT 21 ============ -->
@@ -1996,6 +2885,35 @@ alternative hypothesis: true difference in means is not equal to 0
         <span class="tag">Exam trap</span>
         For a <code class="inline">binomial</code> GLM, <code class="inline">predict()</code> defaults to <code class="inline">type = "link"</code>, returning the value on the <b>log-odds</b> scale, not a probability. You must explicitly pass <code class="inline">type = "response"</code> to get a number between 0 and 1.
       </div>
+
+      <h3>Poisson regression for count data</h3>
+      <p>When the response is a non-negative count (number of events, visits, defects), <code class="inline">family = poisson</code> is the standard choice — its log link means coefficients describe <b>multiplicative</b>, not additive, effects on the expected count.</p>
+      <div class="callout example">
+        <span class="tag">Worked example</span>
+        <pre class="console"><span class="p">&gt;</span> visits <- c(2, 0, 5, 1, 3, 0, 4, 2)
+<span class="p">&gt;</span> age    <- c(25, 45, 30, 50, 28, 60, 22, 35)
+<span class="p">&gt;</span> fit <- glm(visits ~ age, family = poisson)
+<span class="p">&gt;</span> exp(coef(fit)["age"])       <span class="c"># exponentiate the coefficient -- multiplicative rate ratio</span>
+<span class="o">      age
+0.9647...</span>
+<span class="p">&gt;</span> predict(fit, newdata = data.frame(age = 40), type = "response")  <span class="c"># expected count</span>
+<span class="o">       1
+2.15...</span></pre>
+        Reading the exponentiated coefficient: a value below 1 means each extra year of age <b>multiplies</b> the expected visit count by that factor (here, roughly a 3.5% decrease per year) — exponentiating a raw GLM coefficient to interpret it this way is a standard step for both <code class="inline">binomial</code> (odds ratios) and <code class="inline">poisson</code> (rate ratios) models.
+      </div>
+
+      <details class="qcard">
+        <summary>Practice — Which <code class="inline">family=</code> is appropriate for modelling a response that counts events (0, 1, 2, 3, ...)?</summary>
+        <div class="qbody">
+          <ol class="opts">
+            <li>gaussian</li>
+            <li>binomial</li>
+            <li class="correct">poisson</li>
+            <li>gamma</li>
+          </ol>
+          <div class="solution"><b>Why:</b> Poisson regression is the standard GLM family for non-negative count data — number of hospital visits, defects, calls received, and similar. <code class="inline">binomial</code> is for 0/1 outcomes, <code class="inline">gaussian</code> for continuous ones.</div>
+        </div>
+      </details>
     </section>
 
     <!-- ============ UNIT 22 ============ -->
@@ -2035,6 +2953,40 @@ alternative hypothesis: true difference in means is not equal to 0
         <span class="tag">Exam trap</span>
         Never evaluate a model's performance on the same rows it was trained on — that number is optimistic and doesn't reflect real-world accuracy. The test set must be held out <b>before</b> any fitting happens, which is exactly why <code class="inline">train_idx</code> is drawn first, above.
       </div>
+
+      <h3>Building a confusion matrix by hand</h3>
+      <p>Before reaching for a package, it's worth computing accuracy/precision/recall directly once — the definitions are exactly what NET conceptual questions probe.</p>
+      <div class="callout example">
+        <span class="tag">Worked example</span>
+        <pre class="console"><span class="p">&gt;</span> actual    <- factor(c("Yes","No","Yes","Yes","No","No","Yes","No"))
+<span class="p">&gt;</span> predicted <- factor(c("Yes","No","No","Yes","No","Yes","Yes","No"))
+<span class="p">&gt;</span> cm <- table(Predicted = predicted, Actual = actual)
+<span class="p">&gt;</span> cm
+<span class="o">         Actual
+Predicted No Yes
+      No   3   1
+      Yes  1   3</span>
+<span class="p">&gt;</span> accuracy  <- sum(diag(cm)) / sum(cm)               <span class="c"># correct / total</span>
+<span class="p">&gt;</span> precision <- cm["Yes","Yes"] / sum(cm["Yes", ])    <span class="c"># of predicted Yes, how many actually were?</span>
+<span class="p">&gt;</span> recall    <- cm["Yes","Yes"] / sum(cm[,"Yes"])     <span class="c"># of actual Yes, how many did we catch?</span>
+<span class="p">&gt;</span> c(accuracy = accuracy, precision = precision, recall = recall)
+<span class="o">accuracy precision    recall
+   0.750     0.750     0.750</span></pre>
+        <code class="inline">sum(diag(cm))</code> is the classic one-liner for "number of correct predictions" in any confusion matrix — the diagonal holds every case where predicted matches actual, regardless of table size.
+      </div>
+
+      <details class="qcard">
+        <summary>Practice — In a confusion matrix, <b>recall</b> (sensitivity) is:</summary>
+        <div class="qbody">
+          <ol class="opts">
+            <li>True positives / total predictions</li>
+            <li class="correct">True positives / actual positives</li>
+            <li>True positives / true negatives</li>
+            <li>Correct predictions / total predictions</li>
+          </ol>
+          <div class="solution"><b>Why:</b> recall measures how many of the <b>actual</b> positive cases the model successfully caught — true positives divided by (true positives + false negatives), i.e. all actual positives. Precision instead divides by all <i>predicted</i> positives; accuracy is the last option.</div>
+        </div>
+      </details>
     </section>
 
     <!-- ============ UNIT 23 ============ -->
@@ -2069,6 +3021,29 @@ alternative hypothesis: true difference in means is not equal to 0
         <span class="tag">Exam-relevant fact</span>
         kNN and k-means share a name but are unrelated: <b>kNN</b> is <i>supervised</i> classification (it needs labels, and <i>k</i> = number of neighbours consulted per prediction); <b>k-means</b> is <i>unsupervised</i> clustering (no labels, and <i>k</i> = number of clusters to form).
       </div>
+
+      <h3>Choosing k: the elbow method</h3>
+      <p>Neither kNN's <i>k</i> nor k-means' <i>k</i> is chosen automatically — both need a value supplied, and both are commonly tuned by plotting a performance metric across a range of <i>k</i> and looking for where the curve "bends" (the elbow).</p>
+      <div class="callout example">
+        <span class="tag">Worked example — elbow plot for k-means</span>
+        <pre class="console"><span class="p">&gt;</span> wss <- sapply(1:8, function(k) kmeans(iris[,1:4], centers = k, nstart = 5)$tot.withinss)
+<span class="p">&gt;</span> plot(1:8, wss, type = "b", pch = 16,
++      xlab = "Number of clusters (k)", ylab = "Total within-cluster sum of squares")</pre>
+        <code class="inline">tot.withinss</code> keeps dropping as <i>k</i> increases (more clusters always fit the data at least as well), but the rate of improvement slows sharply past the "true" number of clusters — that bend is the elbow, and it's a judgment call, not an exact formula. Hierarchical clustering (<code class="inline">hclust(dist(x))</code>, cut with <code class="inline">cutree()</code>) is a related alternative that doesn't require pre-choosing <i>k</i> at all — it builds a full dendrogram you cut at any height afterward.
+      </div>
+
+      <details class="qcard">
+        <summary>Practice — What generally happens to <code class="inline">kmeans()</code>'s within-cluster sum of squares as <i>k</i> increases?</summary>
+        <div class="qbody">
+          <ol class="opts">
+            <li>It increases monotonically</li>
+            <li class="correct">It decreases (or stays flat), never increases</li>
+            <li>It stays exactly constant</li>
+            <li>It becomes undefined for k &gt; 5</li>
+          </ol>
+          <div class="solution"><b>Why:</b> more clusters can only fit the data at least as tightly as fewer clusters (in the limiting case, k = number of points gives zero within-cluster variance). This monotonic decrease is exactly why the "elbow" — the point of diminishing returns — rather than the raw minimum is used to pick k.</div>
+        </div>
+      </details>
     </section>
 
     <!-- ============ CHEAT SHEET ============ -->
@@ -2143,8 +3118,120 @@ alternative hypothesis: true difference in means is not equal to 0
             <tr><td><code>sapply</code></td><td>simplify to vector</td></tr>
             <tr><td><code>lapply</code></td><td>always list</td></tr>
             <tr><td><code>apply(X,1/2,FUN)</code></td><td>rows / columns</td></tr>
+            <tr><td><code>vapply/mapply</code></td><td>typed / parallel-vector apply</td></tr>
           </tbody></table></div>
         </div>
+        <div class="cheat-card">
+          <h4>Graphics &amp; functions</h4>
+          <div class="twrap"><table class="ref"><tbody>
+            <tr><td><code>plot/hist/boxplot</code></td><td>base plots</td></tr>
+            <tr><td><code>par(mfrow=c(r,c))</code></td><td>grid of plots</td></tr>
+            <tr><td><code>function(args) body</code></td><td>define a function</td></tr>
+            <tr><td><code>Recall()</code></td><td>self-call inside anon. fn</td></tr>
+          </tbody></table></div>
+        </div>
+        <div class="cheat-card">
+          <h4>Operator precedence <span class="dim" style="font-weight:400">(high&rarr;low)</span></h4>
+          <div class="twrap"><table class="ref"><tbody>
+            <tr><td><code>^</code></td><td>right-associative</td></tr>
+            <tr><td><code>- +</code> (unary)</td><td>then</td></tr>
+            <tr><td><code>%% %/% %in%</code></td><td>then</td></tr>
+            <tr><td><code>* /</code></td><td>then <code>+ -</code> (binary)</td></tr>
+            <tr><td><code>&lt; &gt; == !=</code></td><td>then <code>!</code>, then <code>&amp;/&amp;&amp;</code>, <code>|/||</code></td></tr>
+            <tr><td><code>&lt;- =</code></td><td>lowest (assignment)</td></tr>
+          </tbody></table></div>
+        </div>
+        <div class="cheat-card">
+          <h4>Environments &amp; errors <span class="dim" style="font-weight:400">(Mod. 11&ndash;12)</span></h4>
+          <div class="twrap"><table class="ref"><tbody>
+            <tr><td><code>&lt;&lt;-</code></td><td>superassignment, enclosing env</td></tr>
+            <tr><td><code>new.env()/local()</code></td><td>explicit / throwaway env</td></tr>
+            <tr><td><code>tryCatch(error=,warning=)</code></td><td>handle conditions</td></tr>
+            <tr><td><code>stop()/warning()</code></td><td>raise error / warning</td></tr>
+          </tbody></table></div>
+        </div>
+        <div class="cheat-card">
+          <h4>Regex &amp; dates <span class="dim" style="font-weight:400">(Mod. 13&ndash;14)</span></h4>
+          <div class="twrap"><table class="ref"><tbody>
+            <tr><td><code>grepl/grep</code></td><td>test / locate matches</td></tr>
+            <tr><td><code>\\1 \\2</code></td><td>back-reference capture groups</td></tr>
+            <tr><td><code>as.Date(x, format=)</code></td><td>parse a date string</td></tr>
+            <tr><td><code>difftime</code></td><td>result of Date subtraction</td></tr>
+          </tbody></table></div>
+        </div>
+        <div class="cheat-card">
+          <h4>OOP: S3 / S4 / R6 <span class="dim" style="font-weight:400">(Mod. 15)</span></h4>
+          <div class="twrap"><table class="ref"><tbody>
+            <tr><td><code>class(x) &lt;- "c"</code></td><td>S3: tag with a class</td></tr>
+            <tr><td><code>setClass/setMethod</code></td><td>S4: formal class + method</td></tr>
+            <tr><td><code>@</code></td><td>S4 slot access (not <code>$</code>)</td></tr>
+            <tr><td><code>R6Class()</code></td><td>mutable, reference-semantics objects</td></tr>
+          </tbody></table></div>
+        </div>
+        <div class="cheat-card">
+          <h4>dplyr &amp; ggplot2 <span class="dim" style="font-weight:400">(Mod. 16&ndash;17)</span></h4>
+          <div class="twrap"><table class="ref"><tbody>
+            <tr><td><code>filter/select/mutate</code></td><td>row / column / new-column verbs</td></tr>
+            <tr><td><code>group_by + summarise</code></td><td>group-wise aggregation</td></tr>
+            <tr><td><code>|&gt; / %&gt;%</code></td><td>native / magrittr pipe</td></tr>
+            <tr><td><code>ggplot()+geom_*()</code></td><td>layered grammar of graphics</td></tr>
+          </tbody></table></div>
+        </div>
+        <div class="cheat-card">
+          <h4>Distributions <span class="dim" style="font-weight:400">(Mod. 18)</span></h4>
+          <div class="twrap"><table class="ref"><tbody>
+            <tr><td><code>d...()</code></td><td>density</td></tr>
+            <tr><td><code>p...()</code></td><td>cumulative P(X&le;x)</td></tr>
+            <tr><td><code>q...()</code></td><td>quantile (inverse of p)</td></tr>
+            <tr><td><code>r...()</code></td><td>random draws</td></tr>
+          </tbody></table></div>
+        </div>
+        <div class="cheat-card">
+          <h4>Hypothesis tests <span class="dim" style="font-weight:400">(Mod. 19)</span></h4>
+          <div class="twrap"><table class="ref"><tbody>
+            <tr><td><code>t.test()</code></td><td>mean difference (Welch by default)</td></tr>
+            <tr><td><code>chisq.test()</code></td><td>categorical independence</td></tr>
+            <tr><td><code>aov()</code></td><td>ANOVA, 3+ group means</td></tr>
+            <tr><td><code>shapiro.test()</code></td><td>normality check</td></tr>
+          </tbody></table></div>
+        </div>
+        <div class="cheat-card">
+          <h4>Regression &amp; GLM <span class="dim" style="font-weight:400">(Mod. 20&ndash;21)</span></h4>
+          <div class="twrap"><table class="ref"><tbody>
+            <tr><td><code>lm(y~x)</code></td><td>linear regression</td></tr>
+            <tr><td><code>glm(y~x, family=)</code></td><td>logistic (binomial) / Poisson</td></tr>
+            <tr><td><code>predict(..., type="response")</code></td><td>probability / expected count</td></tr>
+            <tr><td><code>summary(m)$r.squared</code></td><td>fit quality</td></tr>
+          </tbody></table></div>
+        </div>
+        <div class="cheat-card">
+          <h4>Machine learning <span class="dim" style="font-weight:400">(Mod. 22&ndash;23)</span></h4>
+          <div class="twrap"><table class="ref"><tbody>
+            <tr><td><code>sample()</code> split</td><td>train / test partition</td></tr>
+            <tr><td><code>knn()</code></td><td>supervised, k neighbours</td></tr>
+            <tr><td><code>rpart()/randomForest()</code></td><td>tree / forest classifiers</td></tr>
+            <tr><td><code>kmeans(x, centers=k)</code></td><td>unsupervised clustering</td></tr>
+          </tbody></table></div>
+        </div>
+      </div>
+
+      <h3 style="margin-top:32px">Ten traps worth re-reading the night before</h3>
+      <div class="twrap">
+      <table class="ref">
+        <thead><tr><th>#</th><th>Trap</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td><code>round(2.5)</code> is <b>2</b>, not 3 — round-half-to-even, not school rounding.</td></tr>
+          <tr><td>2</td><td><code>diag(4)</code> is a 4&times;4 identity matrix — a whole number in, not a 1&times;1 matrix.</td></tr>
+          <tr><td>3</td><td><code>NA == NA</code> is <code>NA</code>, not <code>TRUE</code> — use <code>is.na()</code> to test missingness.</td></tr>
+          <tr><td>4</td><td><code>lapply()</code> never simplifies (always a list); <code>sapply()</code> tries to.</td></tr>
+          <tr><td>5</td><td><code>x[i]</code> on a list returns a list; <code>x[[i]]</code> returns the element itself.</td></tr>
+          <tr><td>6</td><td>R 4.0.0+: <code>data.frame()</code> keeps character columns as character, not factor, by default.</td></tr>
+          <tr><td>7</td><td><code>&lt;&lt;-</code> updates an enclosing/global variable; plain <code>&lt;-</code> is always local inside a function.</td></tr>
+          <tr><td>8</td><td><code>var()</code>/<code>sd()</code> divide by n&minus;1 (sample formula), never by n.</td></tr>
+          <tr><td>9</td><td>Matrix fill is <b>column-major</b> by default — <code>byrow=TRUE</code> changes that.</td></tr>
+          <tr><td>10</td><td><code>t.test()</code> defaults to Welch's (unequal-variance) test, not Student's classic version.</td></tr>
+        </tbody>
+      </table>
       </div>
     </section>
 
@@ -3545,9 +4632,644 @@ const QUESTION_BANK = [
   ],
   "correct": 1,
   "exp": "rpart (\"recursive partitioning\") is the standard base package for single decision trees in R."
+ },
+ {
+  "topic": "Unit 1 — Calculator",
+  "q": "What is <code class=\"inline\">typeof(5L / 2L)</code>?",
+  "opts": [
+   "\"integer\"",
+   "\"double\"",
+   "\"numeric\"",
+   "\"float\""
+  ],
+  "correct": 1,
+  "exp": "<code class=\"inline\">/</code> (true division) always promotes its result to double in R, regardless of whether the inputs were integers — this is different from <code class=\"inline\">%/%</code>, which preserves integer type. Note <code class=\"inline\">typeof()</code> reports <code class=\"inline\">\"double\"</code>, never the string <code class=\"inline\">\"numeric\"</code> or <code class=\"inline\">\"float\"</code> (those aren't R storage-mode names)."
+ },
+ {
+  "topic": "Unit 2 — Vectors & Matrices",
+  "q": "<code class=\"inline\">M &lt;- matrix(1:6, nrow = 2)</code>. What does <code class=\"inline\">apply(M, 1, sum)</code> return?",
+  "opts": [
+   "c(3, 7, 11)",
+   "c(9, 12)",
+   "21",
+   "c(1, 2, 3, 4, 5, 6)"
+  ],
+  "correct": 1,
+  "exp": "<code class=\"inline\">MARGIN = 1</code> sums across each row: row 1 = 1+3+5 = 9, row 2 = 2+4+6 = 12 — two results, since the matrix has two rows."
+ },
+ {
+  "topic": "Unit 4 — Missing Data & Logical Ops",
+  "q": "<code class=\"inline\">x &lt;- c(1, NA, 3)</code>. How many elements does <code class=\"inline\">x[x &gt; 1]</code> have?",
+  "opts": [
+   "1",
+   "2",
+   "3",
+   "0"
+  ],
+  "correct": 1,
+  "exp": "<code class=\"inline\">x &gt; 1</code> evaluates to <code class=\"inline\">c(FALSE, NA, TRUE)</code>. Indexing with a logical vector keeps a slot (as <code class=\"inline\">NA</code>) for every <code class=\"inline\">NA</code> in the condition, so the result is <code class=\"inline\">c(NA, 3)</code> — length 2, not 1."
+ },
+ {
+  "topic": "Unit 5 — Conditionals & Loops",
+  "q": "With <code class=\"inline\">switch(\"x\", a = 1, b = , c = 3)</code> (no default), what is returned?",
+  "opts": [
+   "1",
+   "3",
+   "NA",
+   "NULL, invisibly"
+  ],
+  "correct": 3,
+  "exp": "when the value being switched on matches none of the named branches and there is <b>no</b> unnamed default branch, <code class=\"inline\">switch()</code> returns <code class=\"inline\">NULL</code> invisibly (nothing prints at the console, but the value is genuinely <code class=\"inline\">NULL</code> if captured)."
+ },
+ {
+  "topic": "Unit 8 — Data Frames & I/O",
+  "q": "In base R, which function performs a SQL-style join between two data frames?",
+  "opts": [
+   "join()",
+   "combine()",
+   "merge()",
+   "bind_rows()"
+  ],
+  "correct": 2,
+  "exp": "<code class=\"inline\">merge()</code> is base R's join function, matched <code class=\"inline\">by</code> a shared key column. <code class=\"inline\">bind_rows()</code> is a <b>dplyr</b> function for stacking rows, not joining columns, and neither <code class=\"inline\">join()</code> nor <code class=\"inline\">combine()</code> exist in base R."
+ },
+ {
+  "topic": "Unit 10 — Programming & Functions",
+  "q": "Inside a function, what does <code class=\"inline\">Recall()</code> do?",
+  "opts": [
+   "Undoes the last assignment",
+   "Re-calls the currently executing function itself (useful for anonymous recursive functions)",
+   "Reloads a package",
+   "Restarts the R session"
+  ],
+  "correct": 1,
+  "exp": "<code class=\"inline\">Recall()</code> lets a function refer to itself recursively without needing to know its own name — handy inside an anonymous function assigned on the fly, where writing the function's own name (as ordinary recursion would) isn't possible."
+ },
+ {
+  "topic": "Module 11 — Environments & Closures",
+  "q": "<code class=\"inline\">e1 &lt;- new.env(); e2 &lt;- e1; e2$x &lt;- 5</code>. What is <code class=\"inline\">e1$x</code>?",
+  "opts": [
+   "NULL",
+   "Error: x not found",
+   "5",
+   "Depends on which was modified last"
+  ],
+  "correct": 2,
+  "exp": "environments are R's one built-in <b>reference-semantics</b> type (like a pointer/object reference in other languages) — unlike vectors, lists, or data frames, which are copied on modification. <code class=\"inline\">e2 &lt;- e1</code> creates a second name for the <i>same</i> environment, so writing through <code class=\"inline\">e2</code> is visible through <code class=\"inline\">e1</code> too."
+ },
+ {
+  "topic": "Module 12 — Error Handling & Debugging",
+  "q": "What is the key difference between <code class=\"inline\">try()</code> and <code class=\"inline\">tryCatch()</code>?",
+  "opts": [
+   "try() is for warnings, tryCatch() is for errors only",
+   "try() just suppresses/returns the error as a \"try-error\" object; tryCatch() lets you supply separate custom handlers per condition type",
+   "They are exact synonyms",
+   "try() only works inside functions"
+  ],
+  "correct": 1,
+  "exp": "<code class=\"inline\">try()</code> is the lightweight option — on error it just returns a <code class=\"inline\">\"try-error\"</code>-classed object instead of halting. <code class=\"inline\">tryCatch()</code> is the full-featured version: separate handler functions for <code class=\"inline\">error=</code>, <code class=\"inline\">warning=</code>, <code class=\"inline\">message=</code>, plus an optional <code class=\"inline\">finally=</code> block that always runs."
+ },
+ {
+  "topic": "Module 13 — Regular Expressions",
+  "q": "What does <code class=\"inline\">sub(\"(\\\\d+)-(\\\\d+)\", \"\\\\2-\\\\1\", \"10-20\")</code> return?",
+  "opts": [
+   "\"10-20\"",
+   "\"20-10\"",
+   "Error",
+   "\"\\\\2-\\\\1\""
+  ],
+  "correct": 1,
+  "exp": "the pattern captures two digit groups — group 1 = \"10\", group 2 = \"20\". The replacement <code class=\"inline\">\"\\\\2-\\\\1\"</code> swaps their order, giving <code class=\"inline\">\"20-10\"</code>."
+ },
+ {
+  "topic": "Module 14 — Dates, Times & Time Series",
+  "q": "<code class=\"inline\">as.Date(\"15-08-2026\", format=\"%d-%m-%Y\") - as.Date(\"01-08-2026\", format=\"%d-%m-%Y\")</code> gives what class of result?",
+  "opts": [
+   "numeric",
+   "difftime",
+   "Date",
+   "character"
+  ],
+  "correct": 1,
+  "exp": "subtracting two <code class=\"inline\">Date</code> objects always returns a <code class=\"inline\">difftime</code> object (here, \"Time difference of 14 days\"), which prints like a number but isn't one until you call <code class=\"inline\">as.numeric()</code> on it."
+ },
+ {
+  "topic": "Module 15 — OOP (S3/S4/R6)",
+  "q": "In S4, how do you access a slot named <code class=\"inline\">w</code> on an object <code class=\"inline\">r</code>?",
+  "opts": [
+   "r$w",
+   "r[[\"w\"]]",
+   "r@w",
+   "r.w"
+  ],
+  "correct": 2,
+  "exp": "S4 objects use <code class=\"inline\">@</code> for slot access, deliberately distinct from S3/list's <code class=\"inline\">$</code> — a reliable way to spot S4 code in an unfamiliar script at a glance."
+ },
+ {
+  "topic": "Module 16 — dplyr & Pipes",
+  "q": "Which dplyr verb collapses grouped rows down to one summary row per group?",
+  "opts": [
+   "mutate()",
+   "filter()",
+   "summarise()",
+   "arrange()"
+  ],
+  "correct": 2,
+  "exp": "<code class=\"inline\">summarise()</code> (paired with <code class=\"inline\">group_by()</code>) collapses each group to a single row of aggregate statistics. <code class=\"inline\">mutate()</code> instead adds a new column while keeping every original row — a common point of confusion since both can compute a mean."
+ },
+ {
+  "topic": "Module 17 — ggplot2",
+  "q": "In ggplot2, what does <code class=\"inline\">facet_wrap(~group)</code> do?",
+  "opts": [
+   "Colours points by group",
+   "Splits the plot into one panel per distinct value of group",
+   "Filters the data to one group",
+   "Sorts the data by group"
+  ],
+  "correct": 1,
+  "exp": "faceting creates \"small multiples\" — a separate panel per level of the faceting variable, all sharing the same axes by default (unless <code class=\"inline\">scales = \"free\"</code> is set) so panels stay visually comparable."
+ },
+ {
+  "topic": "Module 18 — Probability Distributions",
+  "q": "For <code class=\"inline\">X ~ N(100, 15)</code>, which expression gives P(X &gt; 130)?",
+  "opts": [
+   "pnorm(130, 100, 15)",
+   "1 - pnorm(130, 100, 15)",
+   "qnorm(130, 100, 15)",
+   "dnorm(130, 100, 15)"
+  ],
+  "correct": 1,
+  "exp": "<code class=\"inline\">pnorm()</code> gives the cumulative probability up to (and including) a value — P(X &le; 130). The complement, <code class=\"inline\">1 - pnorm(...)</code>, gives P(X &gt; 130). <code class=\"inline\">qnorm()</code> goes the other direction (probability → value); <code class=\"inline\">dnorm()</code> gives the density, not a probability."
+ },
+ {
+  "topic": "Module 19 — Hypothesis Testing",
+  "q": "<code class=\"inline\">chisq.test()</code> is most appropriate for testing:",
+  "opts": [
+   "Difference between two means",
+   "Association between two categorical variables",
+   "Whether a sample is normally distributed",
+   "Correlation between two continuous variables"
+  ],
+  "correct": 1,
+  "exp": "the chi-squared test of independence compares an observed contingency table of two categorical variables against what independence would predict. Means → <code class=\"inline\">t.test()</code>/<code class=\"inline\">aov()</code>; normality → <code class=\"inline\">shapiro.test()</code>; correlation → <code class=\"inline\">cor.test()</code>."
+ },
+ {
+  "topic": "Module 20 — Correlation & Regression",
+  "q": "In <code class=\"inline\">lm(y ~ x1 + x2, data = df)</code>, what does the coefficient on <code class=\"inline\">x1</code> represent?",
+  "opts": [
+   "The total change in y per unit of x1, ignoring x2",
+   "The change in y per unit of x1, holding x2 constant",
+   "The correlation between x1 and y",
+   "The R-squared contributed by x1"
+  ],
+  "correct": 1,
+  "exp": "in multiple regression, each coefficient is a <b>partial</b> effect — the expected change in the response per unit increase in that predictor, with every other predictor in the model held fixed. This is different from the simple (bivariate) slope you'd get regressing y on x1 alone."
+ },
+ {
+  "topic": "Module 21 — Generalized Linear Models",
+  "q": "Which <code class=\"inline\">family=</code> is appropriate for modelling a response that counts events (0, 1, 2, 3, ...)?",
+  "opts": [
+   "gaussian",
+   "binomial",
+   "poisson",
+   "gamma"
+  ],
+  "correct": 2,
+  "exp": "Poisson regression is the standard GLM family for non-negative count data — number of hospital visits, defects, calls received, and similar. <code class=\"inline\">binomial</code> is for 0/1 outcomes, <code class=\"inline\">gaussian</code> for continuous ones."
+ },
+ {
+  "topic": "Module 22 — ML Concepts",
+  "q": "In a confusion matrix, <b>recall</b> (sensitivity) is:",
+  "opts": [
+   "True positives / total predictions",
+   "True positives / actual positives",
+   "True positives / true negatives",
+   "Correct predictions / total predictions"
+  ],
+  "correct": 1,
+  "exp": "recall measures how many of the <b>actual</b> positive cases the model successfully caught — true positives divided by (true positives + false negatives), i.e. all actual positives. Precision instead divides by all <i>predicted</i> positives; accuracy is the last option."
+ },
+ {
+  "topic": "Module 23 — ML Models",
+  "q": "What generally happens to <code class=\"inline\">kmeans()</code>'s within-cluster sum of squares as <i>k</i> increases?",
+  "opts": [
+   "It increases monotonically",
+   "It decreases (or stays flat), never increases",
+   "It stays exactly constant",
+   "It becomes undefined for k &gt; 5"
+  ],
+  "correct": 1,
+  "exp": "more clusters can only fit the data at least as tightly as fewer clusters (in the limiting case, k = number of points gives zero within-cluster variance). This monotonic decrease is exactly why the \"elbow\" — the point of diminishing returns — rather than the raw minimum is used to pick k."
+ },
+ {
+  "topic": "Introduction to R",
+  "q": "Which single property of R explains why <code class=\"inline\">marks + 5</code> works on a whole vector without a loop?",
+  "opts": [
+   "R is compiled, not interpreted",
+   "R is vectorised — operators apply element-wise by default",
+   "R auto-parallelises all loops",
+   "R caches every previous result"
+  ],
+  "correct": 1,
+  "exp": "R's arithmetic and comparison operators are vectorised: they are themselves functions that already know how to walk every element of a vector, so no explicit loop is needed for elementwise work."
+ },
+ {
+  "topic": "Introduction to R",
+  "q": "UGC NET R questions are typically phrased as:",
+  "opts": [
+   "Essay questions about R's design philosophy",
+   "\"What is the output of the following code?\" style questions",
+   "Questions requiring you to write a full R package",
+   "Multi-page coding assignments"
+  ],
+  "correct": 1,
+  "exp": "Past papers overwhelmingly use short \"predict the output\" or \"arrange these lines correctly\" snippets rather than open-ended essay or package-design questions."
+ },
+ {
+  "topic": "R Ecosystem — IDEs",
+  "q": "Which of these runs an R script non-interactively from a terminal, top to bottom, then exits?",
+  "opts": [
+   "R --gui",
+   "Rscript myscript.R",
+   "Rstudio myscript.R",
+   "R.app"
+  ],
+  "correct": 1,
+  "exp": "<code class=\"inline\">Rscript</code> is the standard non-interactive way to run a .R file end to end; plain <code class=\"inline\">R</code> instead drops you into an interactive session at the <code class=\"inline\">&gt;</code> prompt."
+ },
+ {
+  "topic": "R Ecosystem — IDEs",
+  "q": "Which R package lets R code run inside Jupyter notebook cells?",
+  "opts": [
+   "reticulate",
+   "IRkernel",
+   "knitr",
+   "rmarkdown"
+  ],
+  "correct": 1,
+  "exp": "<code class=\"inline\">IRkernel</code> registers R as a Jupyter kernel. <code class=\"inline\">reticulate</code> instead lets R call Python; <code class=\"inline\">knitr</code>/<code class=\"inline\">rmarkdown</code> power R Markdown/Quarto documents, a different workflow."
+ },
+ {
+  "topic": "R Ecosystem — Versions",
+  "q": "The native pipe operator <code class=\"inline\">|&gt;</code> was introduced in which R version?",
+  "opts": [
+   "3.6.0",
+   "4.0.0",
+   "4.1.0",
+   "4.3.0"
+  ],
+  "correct": 2,
+  "exp": "R 4.1.0 (\"Camp Pontanezen\", May 2021) introduced the base-R native pipe <code class=\"inline\">|&gt;</code> along with shorthand anonymous-function syntax <code class=\"inline\">\\(x) ...</code>."
+ },
+ {
+  "topic": "R Ecosystem — Versions",
+  "q": "Which R version made <code class=\"inline\">stringsAsFactors = FALSE</code> the default for <code class=\"inline\">data.frame()</code>?",
+  "opts": [
+   "3.5.0",
+   "3.6.0",
+   "4.0.0",
+   "4.2.0"
+  ],
+  "correct": 2,
+  "exp": "R 4.0.0 (April 2020) flipped this long-standing default — arguably the most consequential single compatibility change to base R behaviour in the last decade."
+ },
+ {
+  "topic": "R Ecosystem — CRAN/Bioconductor",
+  "q": "Which function installs a package specifically from Bioconductor rather than CRAN?",
+  "opts": [
+   "install.packages()",
+   "BiocManager::install()",
+   "devtools::install_cran()",
+   "library()"
+  ],
+  "correct": 1,
+  "exp": "Bioconductor is a separate repository from CRAN, so it needs its own installer — <code class=\"inline\">BiocManager::install()</code> — rather than the default <code class=\"inline\">install.packages()</code>, which talks to CRAN."
+ },
+ {
+  "topic": "R Ecosystem — History",
+  "q": "CRAN (the Comprehensive R Archive Network) was founded in which year?",
+  "opts": [
+   "1993",
+   "1995",
+   "1997",
+   "2000"
+  ],
+  "correct": 2,
+  "exp": "CRAN was founded in 1997 by Kurt Hornik and Friedrich Leisch, four years after R itself was first announced in 1993."
+ },
+ {
+  "topic": "Unit 3 — Built-in Functions",
+  "q": "Which function returns a compact, one-line-per-column structural preview of an object (types, first few values)?",
+  "opts": [
+   "summary()",
+   "str()",
+   "class()",
+   "head()"
+  ],
+  "correct": 1,
+  "exp": "<code class=\"inline\">str()</code> gives a compact structural overview (type + a preview of values per column/element) — the fastest way to sanity-check an unfamiliar object. <code class=\"inline\">summary()</code> instead gives numeric summary statistics."
+ },
+ {
+  "topic": "Unit 3 — Built-in Functions",
+  "q": "What does <code class=\"inline\">vapply(1:3, function(x) x^2, numeric(1))</code> return?",
+  "opts": [
+   "A list of 3 elements",
+   "c(1, 4, 9)",
+   "Error: FUN.VALUE mismatch",
+   "9"
+  ],
+  "correct": 1,
+  "exp": "<code class=\"inline\">vapply()</code> works like <code class=\"inline\">sapply()</code> but requires you to declare the expected shape of each result (<code class=\"inline\">numeric(1)</code> = a single number). Since every result matches that shape, it returns the simplified vector <code class=\"inline\">c(1,4,9)</code>."
+ },
+ {
+  "topic": "Unit 4 — Missing Data & Logical Ops",
+  "q": "What does <code class=\"inline\">length(NULL)</code> return?",
+  "opts": [
+   "1",
+   "NA",
+   "Error",
+   "0"
+  ],
+  "correct": 3,
+  "exp": "<code class=\"inline\">NULL</code> represents \"nothing at all\" — an empty object with length 0. This differs from <code class=\"inline\">NA</code>, a placeholder for one missing value, which has <code class=\"inline\">length() == 1</code>."
+ },
+ {
+  "topic": "Unit 4 — Missing Data & Logical Ops",
+  "q": "Which correctly counts the number of TRUE values in a logical vector <code class=\"inline\">x &lt; 5</code>?",
+  "opts": [
+   "length(x &lt; 5)",
+   "any(x &lt; 5)",
+   "sum(x &lt; 5)",
+   "which(x &lt; 5)"
+  ],
+  "correct": 2,
+  "exp": "TRUE/FALSE coerce to 1/0 under arithmetic, so <code class=\"inline\">sum()</code> on a logical vector counts the TRUEs. <code class=\"inline\">any()</code> collapses to a single TRUE/FALSE; <code class=\"inline\">which()</code> gives positions, not a count."
+ },
+ {
+  "topic": "Unit 9 — Graphics & Plots",
+  "q": "Which argument to a base-R plotting function sets the point/marker shape?",
+  "opts": [
+   "lty",
+   "cex",
+   "pch",
+   "col"
+  ],
+  "correct": 2,
+  "exp": "<code class=\"inline\">pch</code> selects the point character/shape (0-25). <code class=\"inline\">lty</code> is line type, <code class=\"inline\">cex</code> is size scaling, and <code class=\"inline\">col</code> is colour."
+ },
+ {
+  "topic": "Unit 9 — Graphics & Plots",
+  "q": "What does <code class=\"inline\">par(mfrow = c(2, 2))</code> do?",
+  "opts": [
+   "Sets the plot colour palette to 4 colours",
+   "Arranges the next plots into a 2x2 grid on one device",
+   "Creates 4 separate plot windows",
+   "Resizes the current plot to 2x its original size"
+  ],
+  "correct": 1,
+  "exp": "<code class=\"inline\">mfrow = c(rows, cols)</code> tells the graphics device to lay out the next several plot calls into that grid on a single figure, filling row by row."
+ },
+ {
+  "topic": "Module 11 — Environments & Closures",
+  "q": "What do <code class=\"inline\">Filter()</code>, <code class=\"inline\">Map()</code> and <code class=\"inline\">Reduce()</code> have in common?",
+  "opts": [
+   "They only work on data frames",
+   "They are all part of base R's functional-programming toolkit, taking a function as an argument",
+   "They are deprecated in favour of purrr",
+   "They require the R6 package"
+  ],
+  "correct": 1,
+  "exp": "All three are base-R higher-order functions: <code class=\"inline\">Filter()</code> keeps elements matching a predicate, <code class=\"inline\">Map()</code> applies a function across parallel vectors, and <code class=\"inline\">Reduce()</code> folds a vector down to one value."
+ },
+ {
+  "topic": "Module 14 — Dates, Times & Time Series",
+  "q": "What class of object does <code class=\"inline\">Sys.time()</code> return?",
+  "opts": [
+   "Date",
+   "POSIXct",
+   "character",
+   "difftime"
+  ],
+  "correct": 1,
+  "exp": "<code class=\"inline\">Sys.time()</code> returns the current instant as a <code class=\"inline\">POSIXct</code> (seconds since 1 Jan 1970 UTC), including time-of-day. <code class=\"inline\">Sys.Date()</code> instead returns just the calendar date, as a <code class=\"inline\">Date</code>."
+ },
+ {
+  "topic": "Module 16 — dplyr & Pipes",
+  "q": "In <code class=\"inline\">df |&gt; filter(x &gt; 0)</code>, what does the native pipe <code class=\"inline\">|&gt;</code> do?",
+  "opts": [
+   "Compares df to filter(x&gt;0)",
+   "Inserts df as the first argument of filter(), equivalent to filter(df, x&gt;0)",
+   "Runs filter() before df is created",
+   "Nothing — it is a syntax error outside dplyr"
+  ],
+  "correct": 1,
+  "exp": "The native pipe takes the expression on its left and passes it as the first argument to the call on its right, letting pipelines read left-to-right instead of as nested function calls."
+ },
+ {
+  "topic": "Module 20 — Correlation & Regression",
+  "q": "If adding a useless predictor to <code class=\"inline\">lm()</code> always increases R&sup2; even slightly, which statistic corrects for this when comparing models?",
+  "opts": [
+   "p-value",
+   "Adjusted R&sup2;",
+   "Standard error",
+   "F-statistic"
+  ],
+  "correct": 1,
+  "exp": "Adjusted R&sup2; penalises extra predictors, so it can actually decrease when a added variable doesn't meaningfully improve the fit — making it the fairer metric for comparing models with different numbers of terms."
+ },
+ {
+  "topic": "Module 23 — ML Models",
+  "q": "Which base-R function fits a k-means clustering model?",
+  "opts": [
+   "knn()",
+   "kmeans()",
+   "lm()",
+   "rpart()"
+  ],
+  "correct": 1,
+  "exp": "<code class=\"inline\">kmeans(x, centers = k)</code> is base R's (stats package) k-means implementation. <code class=\"inline\">knn()</code> (from the class package) is a supervised classifier, not clustering, despite the similar name."
+ },
+ {
+  "topic": "Unit 9 — Graphics & Plots",
+  "q": "Which base-R function is purpose-built to check whether a sample looks normally distributed, by comparing it to theoretical normal quantiles?",
+  "opts": [
+   "hist()",
+   "boxplot()",
+   "qqnorm()",
+   "pairs()"
+  ],
+  "correct": 2,
+  "exp": "<code class=\"inline\">qqnorm()</code> plots the sample's sorted values against the quantiles a normal distribution would predict; points falling on a straight line (usually drawn with <code class=\"inline\">qqline()</code>) indicate normality. A histogram can hint at shape but doesn't give this direct theoretical comparison."
+ },
+ {
+  "topic": "Module 17 — ggplot2",
+  "q": "<code class=\"inline\">geom_bar()</code>'s default statistical transformation is:",
+  "opts": [
+   "stat_identity()",
+   "stat_count()",
+   "stat_bin()",
+   "stat_smooth()"
+  ],
+  "correct": 1,
+  "exp": "<code class=\"inline\">geom_bar()</code> counts how many rows fall into each discrete x value before drawing — that's <code class=\"inline\">stat_count()</code>. If you already have precomputed heights and want bars drawn exactly as given (no counting), you'd use <code class=\"inline\">geom_col()</code> instead, whose default stat is <code class=\"inline\">identity</code>."
+ },
+ {
+  "topic": "Module 17 — ggplot2",
+  "q": "Which is the correct way to zoom a plot's y-axis to 15&ndash;25 <b>without</b> discarding any data used for a fitted <code class=\"inline\">geom_smooth()</code> line?",
+  "opts": [
+   "scale_y_continuous(limits = c(15, 25))",
+   "coord_cartesian(ylim = c(15, 25))",
+   "ylim(15, 25)",
+   "geom_point(ylim = c(15, 25))"
+  ],
+  "correct": 1,
+  "exp": "<code class=\"inline\">coord_cartesian()</code> only changes what's visible in the final rendered view — every row is still passed to any stat (like the regression behind <code class=\"inline\">geom_smooth()</code>). <code class=\"inline\">scale_y_continuous(limits=)</code> and the shorthand <code class=\"inline\">ylim()</code> both remove out-of-range rows before stats run, which can visibly change a fitted line."
+ },
+ {
+  "topic": "Unit 9 — Graphics & Plots",
+  "q": "Which base-R function plots a mathematical expression directly, e.g. <code class=\"inline\">curve(sin(x), 0, 2*pi)</code>, without first building x/y vectors?",
+  "opts": [
+   "plot()",
+   "curve()",
+   "matplot()",
+   "contour()"
+  ],
+  "correct": 1,
+  "exp": "<code class=\"inline\">curve()</code> takes an expression in x and a range, and evaluates/plots it directly — handy for overlaying a theoretical function (a density curve, a fitted line) without manually generating coordinates."
+ },
+ {
+  "topic": "Unit 9 — Graphics & Plots",
+  "q": "Which pair of base-R functions together visualise a two-way contingency table as tile areas proportional to cell counts?",
+  "opts": [
+   "barplot() and pie()",
+   "mosaicplot()",
+   "pairs() and matplot()",
+   "dotchart() and stripchart()"
+  ],
+  "correct": 1,
+  "exp": "<code class=\"inline\">mosaicplot(table)</code> is the dedicated base-R function for this — tile widths/heights are proportional to the counts in each cell of a contingency table, making it easy to spot association between two categorical variables at a glance."
+ },
+ {
+  "topic": "Unit 9 — Graphics & Plots",
+  "q": "After <code class=\"inline\">png(\"plot.png\"); hist(x)</code>, what must you call to actually write the file to disk?",
+  "opts": [
+   "save.image()",
+   "dev.off()",
+   "write.png()",
+   "close(\"plot.png\")"
+  ],
+  "correct": 1,
+  "exp": "A file-based graphics device stays open (and the file stays unwritten/incomplete) until <code class=\"inline\">dev.off()</code> closes it. This is the single most common reason a saved plot comes out as a 0-byte or corrupted file."
+ },
+ {
+  "topic": "Unit 9 — Graphics & Plots",
+  "q": "Which function draws a full scatterplot matrix — every numeric column of a data frame plotted against every other?",
+  "opts": [
+   "plot()",
+   "pairs()",
+   "matplot()",
+   "coplot()"
+  ],
+  "correct": 1,
+  "exp": "<code class=\"inline\">pairs(df)</code> builds the complete grid of pairwise scatterplots. (Note that plain <code class=\"inline\">plot(df)</code> on a data frame with several numeric columns also dispatches to this same pairs-style grid automatically.)"
+ },
+ {
+  "topic": "Module 17 — ggplot2",
+  "q": "In the grammar of graphics, which layer is responsible for transforming raw data BEFORE it is drawn — e.g. binning values for a histogram?",
+  "opts": [
+   "Aesthetics",
+   "Geometry",
+   "Statistics",
+   "Coordinate system"
+  ],
+  "correct": 2,
+  "exp": "The statistics (stat) layer runs a transformation on the data first — binning, counting, smoothing — and hands the transformed result to the geom for drawing. Every geom has a default stat baked in."
+ },
+ {
+  "topic": "Module 17 — ggplot2",
+  "q": "Which ggplot2 layer determines whether an axis is linear or log-scaled, and which exact colours represent which categories?",
+  "opts": [
+   "Geometry",
+   "Facet",
+   "Scale",
+   "Theme"
+  ],
+  "correct": 2,
+  "exp": "Scales govern how a data value maps to a visual value — axis breaks/limits/transformations, and which colour, shape or size corresponds to which data value. <code class=\"inline\">scale_x_log10()</code> and <code class=\"inline\">scale_colour_manual()</code> are both scale-layer functions."
+ },
+ {
+  "topic": "Module 17 — ggplot2",
+  "q": "Which coordinate system does ggplot2 use internally to build a pie chart, since it has no dedicated <code class=\"inline\">geom_pie()</code>?",
+  "opts": [
+   "coord_flip()",
+   "coord_fixed()",
+   "coord_polar()",
+   "coord_cartesian()"
+  ],
+  "correct": 2,
+  "exp": "ggplot2 has no pie geom at all — a pie chart is built by taking a stacked bar chart (<code class=\"inline\">geom_bar()</code>) and wrapping its x-axis around a circle with <code class=\"inline\">coord_polar(theta=\"x\")</code>."
+ },
+ {
+  "topic": "Module 17 — ggplot2",
+  "q": "Which geom draws a fitted trend line together with a shaded confidence-interval ribbon?",
+  "opts": [
+   "geom_line()",
+   "geom_abline()",
+   "geom_smooth()",
+   "geom_ribbon()"
+  ],
+  "correct": 2,
+  "exp": "<code class=\"inline\">geom_smooth()</code> (backed by <code class=\"inline\">stat_smooth()</code>) fits a model — linear (<code class=\"inline\">method=\"lm\"</code>), loess, or a GLM — and draws both the fitted line and its confidence band. <code class=\"inline\">geom_ribbon()</code> draws a filled band too, but from explicit ymin/ymax you supply, not a fitted model."
+ },
+ {
+  "topic": "Module 17 — ggplot2",
+  "q": "Inside <code class=\"inline\">theme()</code>, which helper function is used to change text properties like size, face, or colour?",
+  "opts": [
+   "element_line()",
+   "element_rect()",
+   "element_text()",
+   "element_blank()"
+  ],
+  "correct": 2,
+  "exp": "<code class=\"inline\">element_text()</code> customises text elements (axis titles, plot title, legend text). <code class=\"inline\">element_line()</code> is for lines/gridlines, <code class=\"inline\">element_rect()</code> for backgrounds/borders, and <code class=\"inline\">element_blank()</code> removes an element entirely."
+ },
+ {
+  "topic": "Module 17 — ggplot2",
+  "q": "Which built-in ggplot2 theme removes all axes, gridlines and background, leaving only the geoms themselves?",
+  "opts": [
+   "theme_minimal()",
+   "theme_classic()",
+   "theme_void()",
+   "theme_bw()"
+  ],
+  "correct": 2,
+  "exp": "<code class=\"inline\">theme_void()</code> strips away every non-data element — no axis lines, no gridlines, no panel background — useful for maps or purely illustrative graphics where axes add no information."
+ },
+ {
+  "topic": "Module 17 — ggplot2",
+  "q": "What is the key difference between <code class=\"inline\">facet_wrap(~var)</code> and <code class=\"inline\">facet_grid(rows ~ cols)</code>?",
+  "opts": [
+   "They are identical, just different syntax",
+   "facet_wrap arranges panels into a wrapped grid from ONE variable; facet_grid lays panels on an explicit 2-D grid crossing a row variable with a column variable",
+   "facet_grid only works with continuous variables",
+   "facet_wrap requires exactly 4 panels"
+  ],
+  "correct": 1,
+  "exp": "<code class=\"inline\">facet_wrap()</code> takes one (or more) faceting variables and wraps the resulting panels into a roughly square grid automatically. <code class=\"inline\">facet_grid(rows ~ cols)</code> instead places panels on a strict 2-D grid, with one variable fixed to rows and another to columns."
+ },
+ {
+  "topic": "Module 17 — ggplot2",
+  "q": "Which geom is the standard choice for a heatmap — coloured rectangular cells across an x/y grid?",
+  "opts": [
+   "geom_point()",
+   "geom_tile()",
+   "geom_area()",
+   "geom_boxplot()"
+  ],
+  "correct": 1,
+  "exp": "<code class=\"inline\">geom_tile()</code> (and its faster relative <code class=\"inline\">geom_raster()</code>) draws coloured rectangles across a regular x/y grid, the standard way to build a heatmap in ggplot2."
  }
 ];
-
 
 /* ---------- Quiz engine ---------- */
 var quizPool = [];
